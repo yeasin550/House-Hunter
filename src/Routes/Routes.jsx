@@ -15,68 +15,76 @@ import MyListedHouses from "../pages/MyListedHouses/MyListedHouses";
 import Profile from "../pages/Profile/Profile";
 
 const router = createBrowserRouter([
-    {
-        path: '/',
-        element: <Main></Main>,
-        children: [
-            {
-                path: '/',
-                element: <Home></Home>
-            },
-            {
-                path: 'register',
-                element: <Register></Register>
-            },
-            {
-                path: 'login',
-                element: <Login></Login>
-            }
-        ]
-    },
-    {
-        path: '/dashboard',
-        element: <PrivateRoute><Dashboard></Dashboard></PrivateRoute>,
-        children: [
-            {
-                path: '/dashboard',
-                element: <Profile></Profile>
-            },
-            {
-                path: '/dashboard/myListedHouses',
-                element: <MyListedHouses></MyListedHouses>
-            },
-            {
-                path: '/dashboard/addNewHouse',
-                element: <AddNewHouse></AddNewHouse>
-            },
-            {
-                path: '/dashboard/editHouse/:id',
-                element: <EditHouse></EditHouse>,
-                loader: ({ params }) => fetch(`http://localhost:5000/houses/${params.id}`)
-            },
-            {
-                path: '/dashboard/houseDetails/:id',
-                element: <HouseDetails></HouseDetails>,
-                loader: ({ params }) => fetch(`http://localhost:5000/allBookings/${params.id}`)
-            },
-            {
-                path: '/dashboard/allBookedHouses',
-                element: <OwnerBookedHouses></OwnerBookedHouses>
-
-            },
-            {
-                path: '/dashboard/manageBookings',
-                element: <MyBookedHouse></MyBookedHouse>
-            }
-        ]
-    },
-    {
-        path: '/*',
-        element: <Error></Error>
-    }
-])
+  {
+    path: "/",
+    element: <Main></Main>,
+    children: [
+      {
+        path: "/",
+        element: <Home></Home>,
+      },
+      {
+        path: "register",
+        element: <Register></Register>,
+      },
+      {
+        path: "login",
+        element: <Login></Login>,
+      },
+    ],
+  },
+  {
+    path: "/dashboard",
+    element: (
+      <PrivateRoute>
+        <Dashboard></Dashboard>
+      </PrivateRoute>
+    ),
+    children: [
+      {
+        path: "/dashboard",
+        element: <Profile></Profile>,
+      },
+      {
+        path: "/dashboard/myListedHouses",
+        element: <MyListedHouses></MyListedHouses>,
+      },
+      {
+        path: "/dashboard/addNewHouse",
+        element: <AddNewHouse></AddNewHouse>,
+      },
+      {
+        path: "/dashboard/editHouse/:id",
+        element: <EditHouse></EditHouse>,
+        loader: ({ params }) =>
+          fetch(
+            `https://house-hunter-server-pi.vercel.app/houses/${params.id}`
+          ),
+      },
+      {
+        path: "/dashboard/houseDetails/:id",
+        element: <HouseDetails></HouseDetails>,
+        loader: ({ params }) =>
+          fetch(
+            `https://house-hunter-server-pi.vercel.app/allBookings/${params.id}`
+          ),
+      },
+      {
+        path: "/dashboard/allBookedHouses",
+        element: <OwnerBookedHouses></OwnerBookedHouses>,
+      },
+      {
+        path: "/dashboard/manageBookings",
+        element: <MyBookedHouse></MyBookedHouse>,
+      },
+    ],
+  },
+  {
+    path: "/*",
+    element: <Error></Error>,
+  },
+]);
 export default router;
-
 
 // ,
 //     {
