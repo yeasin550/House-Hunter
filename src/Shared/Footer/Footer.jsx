@@ -1,3 +1,4 @@
+import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 import logo from '../../assets/logo.png'
 const Footer = () => {
     return (
@@ -25,6 +26,12 @@ const Footer = () => {
                 <a className="link link-hover">Terms of use</a>
                 <a className="link link-hover">Privacy policy</a>
                 <a className="link link-hover">Cookie policy</a>
+                <div className="flex items-center gap-3">
+                    <a href=""><FaFacebook/></a>
+                    <a href=""><FaTwitter/></a>
+                    <a href=""><FaInstagram/></a>
+                    <a href=""><FaYoutube/></a>
+                </div>
             </div>
         </footer>
     );

@@ -1,3 +1,4 @@
+import HappyClients from "../../components/HappyClients/HappyClients";
 import Header from "../../components/Header/Header";
 import Houses from "../../components/Houses/Houses";
 
@@ -6,6 +7,7 @@ const Home = () => {
         <div>
             <Header></Header>
             <Houses></Houses>
+            <HappyClients/>
         </div>
     );
 };

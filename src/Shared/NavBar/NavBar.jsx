@@ -13,8 +13,8 @@ const NavBar = () => {
     // NavBar List Items
     const listItems = <>
         <Link to='/'>Home</Link>
-        <Link>About</Link>
-        <Link>Contact</Link>
+        <Link to='/about'>About</Link>
+        <Link to='/contact'>Contact</Link>
         {
             user ? <Link to='/dashboard' className='bg-[var(--primary-color)] rounded-xl text-white py-1 px-3'>Dashboard</Link> : ''
         }

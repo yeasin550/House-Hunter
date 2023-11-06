@@ -79,7 +79,10 @@ const House = ({ house }) => {
       });
   };
   return (
-    <div className="card card-compact bg-base-100 border shadow-md">
+    <div
+      className="card card-compact bg-base-100 border shadow-md"
+      data-aos="zoom-in-up"
+    >
       <figure>
         <img
           src={house?.picture}
