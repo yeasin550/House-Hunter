@@ -121,26 +121,6 @@ const MyListedHouses = () => {
                               ></MyHouse>
                             ))}
                           </tbody>
-
-                          {/* foot */}
-                          <tfoot>
-                            <tr>
-                              <th className="rounded-none"></th>
-                              <th className="text-[16px] font-semibold">
-                                Name & Location
-                              </th>
-                              <th className="text-[16px] font-semibold">
-                                Owner Information
-                              </th>
-                              <th className="text-[16px] font-semibold">
-                                Price
-                              </th>
-                              <th className="text-[16px] font-semibold">
-                                availability
-                              </th>
-                              <th className="rounded-none"></th>
-                            </tr>
-                          </tfoot>
                         </table>
                       </>
                     ) : (
