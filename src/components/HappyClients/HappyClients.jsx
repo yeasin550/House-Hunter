@@ -3,7 +3,7 @@ const HappyClients = () => {
     return (
       <div>
         <h1 className="text-center font-bold text-3xl my-5 italic text-[#8861B3]">
-          Our Happy Clients
+          Our 2100 Happy Clients
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 mt-12">
           <div className="bg-white shadow-md p-4 rounded-lg sm:flex items-center">
