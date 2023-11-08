@@ -14,7 +14,7 @@ import MyBookedHouse from "../pages/MyBookedHouse/MyBookedHouse";
 import MyListedHouses from "../pages/MyListedHouses/MyListedHouses";
 import Profile from "../pages/Profile/Profile";
 import Contact from "../pages/Contact/Contact";
-import About from "../pages/About/About";
+import AboutPage from "../pages/AboutPage/AboutPage";
 
 const router = createBrowserRouter([
   {
@@ -39,7 +39,7 @@ const router = createBrowserRouter([
       },
       {
         path: "about",
-        element: <About></About>,
+        element: <AboutPage></AboutPage>,
       },
     ],
   },

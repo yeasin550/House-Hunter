@@ -12,7 +12,7 @@ const Offer = () => {
         <p>ENJOY SPECIAL OFFERS ONLY AT SENOTINA HOTEL.</p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-9">
-        <div className="flex gap-4 hover:shadow-lg p-2 rounded-md">
+        <div className="flex gap-4 hover:shadow-lg p-2 rounded-md hover:border">
           <div className="rounded-md bg-[#F6F1EC] w-40 h-20 p-5">
             <img className="" src={day} alt="" />
           </div>
@@ -24,7 +24,7 @@ const Offer = () => {
             </p>
           </div>
         </div>
-        <div className="flex gap-4 hover:shadow-lg p-2 rounded-md">
+        <div className="flex gap-4 hover:shadow-lg p-2 rounded-md hover:border">
           <div className="rounded-md bg-[#F6F1EC] w-40 h-20 p-5">
             <img className="" src={staff} alt="" />
           </div>
@@ -36,14 +36,12 @@ const Offer = () => {
             </p>
           </div>
         </div>
-        <div className="flex gap-4 hover:shadow-lg p-2 rounded-md">
+        <div className="flex gap-4 hover:shadow-lg p-2 rounded-md hover:border">
           <div className="rounded-md bg-[#F6F1EC] w-40 h-20 p-5">
             <img className="" src={room} alt="" />
           </div>
           <div className="space-y-3">
-            <h1 className="text-lg font-semibold">
-              Luxurious & Comfortable Room
-            </h1>
+            <h1 className="text-lg font-semibold">Luxurious & Comfort Room</h1>
             <p className="text-sm text-justify">
               Senotina hotel has a very luxurious and clean room system, the
               room service is also excellent.

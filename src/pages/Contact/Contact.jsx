@@ -1,6 +1,4 @@
-import email from "../../assets/email.png";
-import call from "../../assets/call.png";
-import location from "../../assets/location.png";
+
 const Contact = () => {
   return (
     <div>
@@ -20,17 +18,18 @@ const Contact = () => {
         </div>
       </div>
 
-
       {/* contact form */}
-      <div className="text-center my-12 space-y-5 w-9/12 mx-auto">
+      <div className="text-center my-12 space-y-5 w-10/12 mx-auto">
         <h1 className="font-semibold text-4xl text-[#8861B3] ">
           Ask before booking
         </h1>
         <p>CONTACT US ANYTIME</p>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliq ua. Ut enim
-          ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
+          Before booking a hotel, its essential to consider factors like
+          location, budget, and amenities. Check for guest reviews to gauge the
+          hotels quality. Contact the hotel directly if you have specific
+          questions or requirements, ensuring a smooth and satisfactory booking
+          experience.
         </p>
       </div>
       <form className="">
@@ -66,7 +65,7 @@ const Contact = () => {
           />
         </div>
         <div className="text-center">
-          <button className="bg-[#8a7b82] py-3 px-2 w-40 text-white font-semibold rounded-md mt-5">
+          <button className="bg-[#8861B3] py-3 px-2 w-40 text-white font-semibold rounded-md mt-5">
             Send Message
           </button>
         </div>
