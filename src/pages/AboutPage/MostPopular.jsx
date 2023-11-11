@@ -10,14 +10,14 @@ const MostPopular = () => {
     return (
       <div className="max-w-screen-xl px-5 mx-auto my-20">
         <div className="md:flex items-center gap-5">
-          <div className=" w-1/2">
+          <div className="lg:w-1/2">
             <img
               src="https://img.freepik.com/free-vector/hotel-reception-concept-illustration_114360-12755.jpg?w=740&t=st=1699420439~exp=1699421039~hmac=39fffd2acf389dd3c139d4f22e1e6290aa9a5211b959c06ee7107095a2d2a69df"
               alt="bg-[#09867E] images"
               draggable="false"
             />
           </div>
-          <div className="w-1/2">
+          <div className="lg:w-1/2">
             <h1 className="text-2xl font-bold text-[#8861B3]">
               {" "}
               Why We are Most Popular

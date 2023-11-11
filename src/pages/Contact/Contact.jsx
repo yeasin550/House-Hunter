@@ -3,7 +3,7 @@ const Contact = () => {
   return (
     <div>
       <div
-        className="hero h-64 rounded-md"
+        className="hero h-80 rounded-md"
         style={{
           backgroundImage:
             "url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",

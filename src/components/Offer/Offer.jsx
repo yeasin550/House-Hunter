@@ -17,7 +17,9 @@ const Offer = () => {
             <img className="" src={day} alt="" />
           </div>
           <div className="space-y-3">
-            <h1 className="text-lg font-semibold">Free Breakfast Every Day</h1>
+            <h1 className="text-lg text-[#8861B3] font-semibold">
+              Free Breakfast Every Day
+            </h1>
             <p className="text-sm text-justify">
               Every day in the morning we have a special buffe and it's free.
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -29,7 +31,9 @@ const Offer = () => {
             <img className="" src={staff} alt="" />
           </div>
           <div className="space-y-3">
-            <h1 className="text-lg font-semibold">Attentive And Open Staff</h1>
+            <h1 className="text-lg font-semibold text-[#8861B3]">
+              Attentive And Open Staff
+            </h1>
             <p className="text-sm text-justify">
               Senotina staff is very professional and open to customers. Surely
               you will be satisfied. Lorem ipsum dolor sit amet.
@@ -41,7 +45,9 @@ const Offer = () => {
             <img className="" src={room} alt="" />
           </div>
           <div className="space-y-3">
-            <h1 className="text-lg font-semibold">Luxurious & Comfort Room</h1>
+            <h1 className="text-lg font-semibold text-[#8861B3]">
+              Luxurious & Comfort Room
+            </h1>
             <p className="text-sm text-justify">
               Senotina hotel has a very luxurious and clean room system, the
               room service is also excellent.

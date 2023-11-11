@@ -15,6 +15,8 @@ import MyListedHouses from "../pages/MyListedHouses/MyListedHouses";
 import Profile from "../pages/Profile/Profile";
 import Contact from "../pages/Contact/Contact";
 import AboutPage from "../pages/AboutPage/AboutPage";
+import Services from "../Shared/Services/Services";
+import AllUsers from "../pages/AllUsers/AllUsers";
 
 const router = createBrowserRouter([
   {
@@ -41,6 +43,10 @@ const router = createBrowserRouter([
         path: "about",
         element: <AboutPage></AboutPage>,
       },
+      {
+        path: "services",
+        element: <Services></Services>,
+      },
     ],
   },
   {
@@ -62,6 +68,10 @@ const router = createBrowserRouter([
       {
         path: "/dashboard/addNewHouse",
         element: <AddNewHouse></AddNewHouse>,
+      },
+      {
+        path: "/dashboard/allUsers",
+        element: <AllUsers></AllUsers>,
       },
       {
         path: "/dashboard/editHouse/:id",

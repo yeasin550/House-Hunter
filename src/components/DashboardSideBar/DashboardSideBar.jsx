@@ -36,7 +36,7 @@ const DashboardSideBar = () => {
         Add New Houses
       </Link>
       <Link
-        // to="/dashboard/addNewHouse"
+        to="/dashboard/allUsers"
         className="w-full border mb-2 text-[#ffffffdd] hover:bg-[#ffffff3f] py-[7px] px-3 rounded-md hover:shadow-md cursor-pointer"
       >
         All Users

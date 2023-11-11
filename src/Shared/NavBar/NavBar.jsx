@@ -13,6 +13,7 @@ const NavBar = () => {
     // NavBar List Items
     const listItems = <>
         <Link to='/'>Home</Link>
+        <Link to='/services'>Services</Link>
         <Link to='/about'>About</Link>
         <Link to='/contact'>Contact</Link>
         {
