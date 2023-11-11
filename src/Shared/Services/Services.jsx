@@ -1,6 +1,5 @@
 import {
   FaChair,
-  FaEye,
   FaMobileAlt,
   FaRegEyeSlash,
   FaShower,
