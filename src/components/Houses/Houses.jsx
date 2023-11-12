@@ -4,7 +4,7 @@ import { MagnifyingGlass } from "react-loader-spinner";
 const Houses = () => {
   const [houses, setHouses] = useState([]);
   const [totalHouse, setTotalHouse] = useState(0);
-  console.log(houses);
+  // console.log(houses);
   const [currentPage, setCurrentPage] = useState(0);
   const itemsPerPage = 9;
   const totalPages = Math.ceil(totalHouse / itemsPerPage);
