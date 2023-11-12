@@ -6,7 +6,11 @@ const HappyClients = () => {
           Our 2100 Happy Clients
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 mt-12">
-          <div className="bg-white shadow-md p-4 rounded-lg sm:flex items-center">
+          <div
+            className="bg-white shadow-md p-4 rounded-lg sm:flex items-center"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
             {/* Left Side (Photo) */}
             <div className="sm:w-1/3 mb-4 sm:mb-0">
               <img
@@ -32,7 +36,11 @@ const HappyClients = () => {
               </p>
             </div>
           </div>
-          <div className="bg-white shadow-md p-4 rounded-lg sm:flex items-center">
+          <div
+            className="bg-white shadow-md p-4 rounded-lg sm:flex items-center"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
             {/* Left Side (Photo) */}
             <div className="sm:w-1/3 mb-4 sm:mb-0">
               <img
@@ -57,7 +65,11 @@ const HappyClients = () => {
               </p>
             </div>
           </div>
-          <div className="bg-white shadow-md p-4 rounded-lg sm:flex items-center">
+          <div
+            className="bg-white shadow-md p-4 rounded-lg sm:flex items-center"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
             {/* Left Side (Photo) */}
             <div className="sm:w-1/3 mb-4 sm:mb-0">
               <img
@@ -81,7 +93,11 @@ const HappyClients = () => {
               </p>
             </div>
           </div>
-          <div className="bg-white shadow-md p-4 rounded-lg sm:flex items-center">
+          <div
+            className="bg-white shadow-md p-4 rounded-lg sm:flex items-center"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
             {/* Left Side (Photo) */}
             <div className="sm:w-1/3 mb-4 sm:mb-0">
               <img
