@@ -17,15 +17,16 @@ import Contact from "../pages/Contact/Contact";
 import AboutPage from "../pages/AboutPage/AboutPage";
 import Services from "../Shared/Services/Services";
 import AllUsers from "../pages/AllUsers/AllUsers";
+import Gallery from "../pages/Gallery/Gallery";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Main></Main>,
+    element: <Main/>,
     children: [
       {
         path: "/",
-        element: <Home></Home>,
+        element: <Home/>,
       },
       {
         path: "register",
@@ -37,15 +38,19 @@ const router = createBrowserRouter([
       },
       {
         path: "contact",
-        element: <Contact></Contact>,
+        element: <Contact/>,
       },
       {
         path: "about",
-        element: <AboutPage></AboutPage>,
+        element: <AboutPage/>,
+      },
+      {
+        path: "gallery",
+        element: <Gallery/>,
       },
       {
         path: "services",
-        element: <Services></Services>,
+        element: <Services/>,
       },
     ],
   },
