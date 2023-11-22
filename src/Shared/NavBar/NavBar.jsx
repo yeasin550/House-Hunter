@@ -46,7 +46,7 @@ const NavBar = () => {
       >
         <span>Pages</span>
         {isMenuVisible && (
-          <div className="absolute left-0 flex flex-col mt-2 space-y-2 bg-[#9871c2] rounded-md text-white p-4">
+          <div className="absolute left-0 flex flex-col mt-2 space-y-2 bg-[#9871c2] rounded-md text-white p-4 w-32">
             <Link to="/about" onClick={hideMenu}>
               About
             </Link>
@@ -55,6 +55,9 @@ const NavBar = () => {
             </Link>
             <Link to="/gallery" onClick={hideMenu}>
               Gallery
+            </Link>
+            <Link to="/ourMenu" onClick={hideMenu}>
+              Our Menu
             </Link>
           </div>
         )}

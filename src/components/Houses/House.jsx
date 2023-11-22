@@ -80,10 +80,16 @@ const House = ({ house }) => {
   };
   return (
     <div
-      className="card card-compact bg-base-100 border shadow-md"
+      className="card card-compact bg-base-100 border shadow-md overflow-hidden"
       data-aos="zoom-in-up"
     >
-      <figure>
+      <figure
+        style={{
+          transition: "transform 0.2s ease",
+        }}
+        onMouseOver={(e) => (e.currentTarget.style.transform = "scale(1.05)")}
+        onMouseOut={(e) => (e.currentTarget.style.transform = "scale(1)")}
+      >
         <img
           src={house?.picture}
           className="h-[210px] object-cover w-full"

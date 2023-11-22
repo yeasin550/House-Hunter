@@ -18,6 +18,7 @@ import AboutPage from "../pages/AboutPage/AboutPage";
 import Services from "../Shared/Services/Services";
 import AllUsers from "../pages/AllUsers/AllUsers";
 import Gallery from "../pages/Gallery/Gallery";
+import OurMenu from "../pages/OurMenu/OurMenu";
 
 const router = createBrowserRouter([
   {
@@ -47,6 +48,10 @@ const router = createBrowserRouter([
       {
         path: "gallery",
         element: <Gallery/>,
+      },
+      {
+        path: "ourMenu",
+        element: <OurMenu/>,
       },
       {
         path: "services",

@@ -2,7 +2,11 @@ import {BsQuestionCircle} from 'react-icons/bs'
 
 const QuestionsAnswers = () => {
     return (
-      <div className="max-w-screen-xl px-5 mx-auto my-20 mb-20">
+      <div
+        className="max-w-screen-xl px-5 mx-auto my-20 mb-20"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
         {/* title and descption */}
         <div className="text-center md:w-6/12 mx-auto">
           <h1 className="text-3xl font-semibold text-[#8861B3]">
