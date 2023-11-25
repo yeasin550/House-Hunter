@@ -5,6 +5,7 @@ import Swal from "sweetalert2";
 import { useQuery } from "react-query";
 import MyHouse from "./MyHouse";
 import MyBookedHouse from "../MyBookedHouse/MyBookedHouse";
+import { FaRegEdit, FaTrashAlt } from "react-icons/fa";
 
 const MyListedHouses = () => {
   const { user } = useContext(AuthContext);
@@ -80,7 +81,7 @@ const MyListedHouses = () => {
       {user.role === "House Owner" ? (
         <>
           <div className="flex flex-col">
-            <h1 className="text-[19px] mt-0 pt-0 mb-1 text-[var(--primary-color)] font-medium">
+            <h1 className="text-[24px] mt-0 pt-0 mb-1 text-[var(--primary-color)] font-medium">
               My Houses:
             </h1>
             <div className="">
@@ -91,22 +92,25 @@ const MyListedHouses = () => {
                       <>
                         <table className="table table-zebra w-full border rounded-none">
                           {/* head */}
-                          <thead>
+                          <thead className="text-black">
                             <tr>
                               <th className="rounded-none"></th>
-                              <th className="text-[16px] font-semibold">
+                              <th className="text-[18px] font-semibold">
                                 Name & Location
                               </th>
-                              <th className="text-[16px] font-semibold">
+                              <th className="text-[18px] font-semibold">
                                 Owner Information
                               </th>
-                              <th className="text-[16px] font-semibold">
+                              <th className="text-[18px] font-semibold">
                                 Price
                               </th>
-                              <th className="text-[16px] font-semibold">
+                              <th className="text-[18px] font-semibold">
                                 availability
                               </th>
-                              <th className="rounded-none"></th>
+                              <th className="rounded-none text-xl text-center gap-4 font-semibold flex items-center justify-center">
+                                <FaRegEdit className="text-green-400 cursor-pointer font-bold" />{" "}
+                                / <FaTrashAlt className="text-red-400 cursor-pointer" />
+                              </th>
                             </tr>
                           </thead>
 

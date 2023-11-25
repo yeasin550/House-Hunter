@@ -37,26 +37,46 @@ const NavBar = () => {
   // NavBar List Items
   const listItems = (
     <>
-      <Link to="/">Home</Link>
-      <Link to="/services">Services</Link>
+      <Link className="hover:font-bold" to="/">
+        Home
+      </Link>
+      <Link className="hover:font-bold" to="/services">
+        Services
+      </Link>
       <div
         className="relative group cursor-pointer z-50"
         onClick={toggleMenu}
         ref={dropdownRef}
       >
-        <span>Pages</span>
+        <span className="hover:font-bold">Pages</span>
         {isMenuVisible && (
           <div className="absolute left-0 flex flex-col mt-2 space-y-2 bg-[#9871c2] rounded-md text-white p-4 w-32">
-            <Link to="/about" onClick={hideMenu}>
+            <Link
+              className="hover:bg-[#1967D2] rounded- hover:p-[3px]"
+              to="/about"
+              onClick={hideMenu}
+            >
               About
             </Link>
-            <Link to="/contact" onClick={hideMenu}>
+            <Link
+              className="hover:bg-[#1967D2] rounded- hover:p-[3px]"
+              to="/contact"
+              onClick={hideMenu}
+            >
               Contact
             </Link>
-            <Link to="/gallery" onClick={hideMenu}>
+            <Link
+              className="hover:bg-[#1967D2] rounded- hover:p-[3px]"
+              to="/gallery"
+              onClick={hideMenu}
+            >
               Gallery
             </Link>
-            <Link to="/ourMenu" onClick={hideMenu}>
+            <Link
+              className="hover:bg-[#1967D2] rounded- hover:p-[3px]"
+              to="/ourMenu"
+              onClick={hideMenu}
+            >
               Our Menu
             </Link>
           </div>
@@ -68,7 +88,7 @@ const NavBar = () => {
       {user ? (
         <Link
           to="/dashboard"
-          className="bg-[var(--primary-color)] rounded-xl text-white py-1 px-3"
+          className="bg-[var(--primary-color)] rounded-xl hover:rounded-md text-white py-1 hover:py-2 px-3"
         >
           Dashboard
         </Link>
@@ -130,7 +150,8 @@ const NavBar = () => {
                 >
                   <Link
                     to="/dashboard"
-                    className="badge bg-[var(--primary-color)] text-white -mb-1 cursor-pointer w-full font-normal p-4 text-[17px]"
+                    className="badge bg-[var(--primary-color)] text-white -mb-1 cursor-pointer w-full font-normal p-4 text-[17px] hover:rounded-md hover:py-4"
+                   
                   >
                     {user?.fullname}
                   </Link>
@@ -156,6 +177,9 @@ const NavBar = () => {
                   </li>
                   <li>
                     <Link onClick={handleLogout}>Logout</Link>
+                  </li>
+                  <li>
+                    <Link className="font-bold text-lg">Website Owner</Link>
                   </li>
                 </ul>
               </>
