@@ -19,6 +19,8 @@ import Services from "../Shared/Services/Services";
 import AllUsers from "../pages/AllUsers/AllUsers";
 import Gallery from "../pages/Gallery/Gallery";
 import OurMenu from "../pages/OurMenu/OurMenu";
+import WebsiteOwner from "../components/DashboardSideBar/WebsiteOwner";
+import WebsiteOwnerDetails from "../components/DashboardSideBar/WebsiteOwnerDetails";
 
 const router = createBrowserRouter([
   {
@@ -56,6 +58,10 @@ const router = createBrowserRouter([
       {
         path: "services",
         element: <Services/>,
+      },
+      {
+        path: "websiteOwnerDetails",
+        element: <WebsiteOwnerDetails/>,
       },
     ],
   },
@@ -106,6 +112,10 @@ const router = createBrowserRouter([
       {
         path: "/dashboard/manageBookings",
         element: <MyBookedHouse></MyBookedHouse>,
+      },
+      {
+        path: "/dashboard/websiteOwner",
+        element: <WebsiteOwner></WebsiteOwner>,
       },
     ],
   },

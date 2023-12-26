@@ -151,7 +151,6 @@ const NavBar = () => {
                   <Link
                     to="/dashboard"
                     className="badge bg-[var(--primary-color)] text-white -mb-1 cursor-pointer w-full font-normal p-4 text-[17px] hover:rounded-md hover:py-4"
-                   
                   >
                     {user?.fullname}
                   </Link>
@@ -179,14 +178,24 @@ const NavBar = () => {
                     <Link onClick={handleLogout}>Logout</Link>
                   </li>
                   <li>
-                    <Link className="font-bold text-lg">Website Owner</Link>
+                    <Link
+                      to="/dashboard/websiteOwner"
+                      className="font-bold text-lg w-full text-[#ffffffdd] hover:text-[#ffffffdd] border my-2 bg-[#8861B3] hover:bg-[#9775b6] py-[7px] px-3 rounded-md shadow-md cursor-pointer"
+                    >
+                      Website Owner
+                    </Link>
                   </li>
                 </ul>
               </>
             ) : (
-              <Link to="/login" className="custom-btn">
-                Login Now
-              </Link>
+              <div className="flex items-center gap-2">
+                <Link to="/login" className="custom-btn">
+                  Login Now
+                </Link>
+                <Link to="/websiteOwnerDetails" className="custom-btn">
+                  Owner
+                </Link>
+              </div>
             )}
           </div>
         </div>

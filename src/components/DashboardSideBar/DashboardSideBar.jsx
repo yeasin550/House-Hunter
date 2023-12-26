@@ -47,6 +47,7 @@ const DashboardSideBar = () => {
       >
         Go Back Home
       </Link>
+
     </>
   );
 
@@ -101,6 +102,12 @@ const DashboardSideBar = () => {
           onClick={handleLogout}
         >
           Logout
+        </Link>
+        <Link
+          to="/dashboard/websiteOwner"
+          className="w-full text-[#ffffffdd] border my-2 hover:bg-[#ffffff3f] py-[7px] px-3 rounded-md shadow-md cursor-pointer"
+        >
+          Website__ Owner(Creator!)
         </Link>
       </div>
     </div>
