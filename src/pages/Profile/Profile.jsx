@@ -7,8 +7,11 @@ const Profile = () => {
     <div>
       <div className="bg-[var(--bg-color)] flex flex-col min-h-screen -mt-14 items-center justify-center">
         <h1 className="text-[30px] font-medium">
-          Hello {user.fullname ? user.fullname : user.email}, Welcome to
-          dashboard!
+          Hello{" "}
+          <span className="text-[#6c3e9e] font-semibold">
+            {user.fullname ? user.fullname : user.email}
+          </span>
+          , Welcome to dashboard!
         </h1>
         <img
           className="w-[150px] h-[150px] object-cover rounded-full"
