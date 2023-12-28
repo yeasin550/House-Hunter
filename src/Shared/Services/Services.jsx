@@ -22,7 +22,7 @@ const Services = () => {
       </div>
       <>
         <div className="container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0 mt-5">
-          <h2 className="mb-1 text-3xl font-extrabold leading-tight text-gray-900">
+          <h2 className="mb-1 text-3xl font-extrabold leading-tight text-[#945ccf]">
             Services
           </h2>
           <p className="mb-12 text-lg text-gray-500">
@@ -35,17 +35,18 @@ const Services = () => {
                   <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-indigo-500 rounded-lg" />
                   <div className="relative h-full p-5 bg-white border-2 border-indigo-500 rounded-lg">
                     <div className="flex items-center -mt-1">
-                      <h3 className="my-2 ml-3 text-lg font-bold text-gray-800">
-                        DAPP Development
+                      <h3 className="my-2 ml-3 text-lg font-bold text-[#945ccf]">
+                        SwiftBooking Assurance
                       </h3>
                     </div>
                     <p className="mt-3 mb-1 text-xs font-medium text-indigo-500 uppercase">
                       ------------
                     </p>
                     <p className="mb-2 text-gray-600">
-                      A decentralized application (dapp) is an application built
-                      on a decentralized network that combines a smart contract
-                      and a frontend user interface.
+                      Experience peace of mind with our instant confirmation,
+                      best rates, flexible cancellations, personalized
+                      suggestions, and round-the-clock customer support for a
+                      worry-free hotel booking adventure.
                     </p>
                   </div>
                 </div>
@@ -55,17 +56,18 @@ const Services = () => {
                   <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-purple-500 rounded-lg" />
                   <div className="relative h-full p-5 bg-white border-2 border-purple-500 rounded-lg">
                     <div className="flex items-center -mt-1">
-                      <h3 className="my-2 ml-3 text-lg font-bold text-gray-800">
-                        Web 3.0 Development
+                      <h3 className="my-2 ml-3 text-lg font-bold text-[#945ccf]">
+                        EliteStay Concierge
                       </h3>
                     </div>
                     <p className="mt-3 mb-1 text-xs font-medium text-purple-500 uppercase">
                       ------------
                     </p>
                     <p className="mb-2 text-gray-600">
-                      Web 3.0 is the third generation of Internet services that
-                      will focus on understanding and analyzing data to provide
-                      a semantic web.
+                      Indulge in luxury and convenience! Enjoy instant
+                      confirmations, unbeatable rates, flexible cancellations,
+                      tailored recommendations, and 24/7 concierge support for a
+                      flawless hotel booking experience.
                     </p>
                   </div>
                 </div>
@@ -77,17 +79,18 @@ const Services = () => {
                   <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-blue-400 rounded-lg" />
                   <div className="relative h-full p-5 bg-white border-2 border-blue-400 rounded-lg">
                     <div className="flex items-center -mt-1">
-                      <h3 className="my-2 ml-3 text-lg font-bold text-gray-800">
-                        Project Audit
+                      <h3 className="my-2 ml-3 text-lg font-bold text-[#945ccf]">
+                        FlexiReserve Advantage
                       </h3>
                     </div>
                     <p className="mt-3 mb-1 text-xs font-medium text-blue-400 uppercase">
                       ------------
                     </p>
                     <p className="mb-2 text-gray-600">
-                      A Project Audit is a formal review of a project, which is
-                      intended to assess the extent up to which project
-                      management standards are being upheld.
+                      Your travel, your terms! Benefit from instant
+                      confirmations, best prices, flexible cancellations,
+                      personalized suggestions, and constant customer support
+                      for a hassle-free and flexible hotel booking journey.
                     </p>
                   </div>
                 </div>
@@ -97,17 +100,19 @@ const Services = () => {
                   <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-yellow-400 rounded-lg" />
                   <div className="relative h-full p-5 bg-white border-2 border-yellow-400 rounded-lg">
                     <div className="flex items-center -mt-1">
-                      <h3 className="my-2 ml-3 text-lg font-bold text-gray-800">
-                        Hacking / RE
+                      <h3 className="my-2 ml-3 text-lg font-bold text-[#945ccf]">
+                        StayWell Navigator
                       </h3>
                     </div>
                     <p className="mt-3 mb-1 text-xs font-medium text-yellow-400 uppercase">
                       ------------
                     </p>
                     <p className="mb-2 text-gray-600">
-                      A security hacker is someone who explores methods for
-                      breaching defenses and exploiting weaknesses in a computer
-                      system or network.
+                      Navigate your perfect stay effortlessly! With instant
+                      confirmations, best rates, flexible cancellations,
+                      personalized tips, and 24/7 support, enjoy a smooth and
+                      personalized hotel booking experience with StayWell
+                      Navigator.
                     </p>
                   </div>
                 </div>
@@ -117,17 +122,19 @@ const Services = () => {
                   <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-green-500 rounded-lg" />
                   <div className="relative h-full p-5 bg-white border-2 border-green-500 rounded-lg">
                     <div className="flex items-center -mt-1">
-                      <h3 className="my-2 ml-3 text-lg font-bold text-gray-800">
-                        Bot/Script Development
+                      <h3 className="my-2 ml-3 text-lg font-bold text-[#945ccf]">
+                        Timeless Travelers Haven
                       </h3>
                     </div>
                     <p className="mt-3 mb-1 text-xs font-medium text-green-500 uppercase">
                       ------------
                     </p>
                     <p className="mb-2 text-gray-600">
-                      Bot development frameworks were created as advanced
-                      software tools that eliminate a large amount of manual
-                      work and accelerate the development process.
+                      Embark on timeless journeys with instant confirmations,
+                      unbeatable rates, flexible cancellations, personalized
+                      recommendations, and dedicated 24/7 customer support,
+                      ensuring your hotel bookings are as memorable as your
+                      travels.
                     </p>
                   </div>
                 </div>
