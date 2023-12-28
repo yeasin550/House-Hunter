@@ -18,7 +18,13 @@ const HappyClients = () => {
               </div>
             </div>
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8">
-              <ul className="space-y-8">
+              <ul
+                className="space-y-8"
+                data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="300"
+                data-aos-offset="0"
+              >
                 <li className="text-sm leading-6">
                   <div className="relative group">
                     <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
@@ -144,7 +150,13 @@ const HappyClients = () => {
                   </div>
                 </li>
               </ul>
-              <ul className="hidden space-y-8 sm:block">
+              <ul
+                className="hidden space-y-8 sm:block"
+                data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="300"
+                data-aos-offset="0"
+              >
                 <li className="text-sm leading-6">
                   <div className="relative group">
                     <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
@@ -276,7 +288,13 @@ const HappyClients = () => {
                   </div>
                 </li>
               </ul>
-              <ul className="hidden space-y-8 lg:block">
+              <ul
+                className="hidden space-y-8 lg:block"
+                data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="300"
+                data-aos-offset="0"
+              >
                 <li className="text-sm leading-6">
                   <div className="relative group">
                     <div className="absolute transition rounded-lg opacity-25 -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
@@ -414,7 +432,7 @@ const HappyClients = () => {
           <div
             className="bg-white shadow-md p-4 rounded-lg sm:flex items-center"
             data-aos="fade-up"
-            data-aos-duration="3000"
+            data-aos-duration="1000"
           >
             {/* Left Side (Photo) */}
             <div className="sm:w-1/3 mb-4 sm:mb-0">
@@ -444,7 +462,7 @@ const HappyClients = () => {
           <div
             className="bg-white shadow-md p-4 rounded-lg sm:flex items-center"
             data-aos="fade-up"
-            data-aos-duration="3000"
+            data-aos-duration="1000"
           >
             {/* Left Side (Photo) */}
             <div className="sm:w-1/3 mb-4 sm:mb-0">
@@ -473,7 +491,7 @@ const HappyClients = () => {
           <div
             className="bg-white shadow-md p-4 rounded-lg sm:flex items-center"
             data-aos="fade-up"
-            data-aos-duration="3000"
+            data-aos-duration="1000"
           >
             {/* Left Side (Photo) */}
             <div className="sm:w-1/3 mb-4 sm:mb-0">
@@ -501,7 +519,7 @@ const HappyClients = () => {
           <div
             className="bg-white shadow-md p-4 rounded-lg sm:flex items-center"
             data-aos="fade-up"
-            data-aos-duration="3000"
+            data-aos-duration="1000"
           >
             {/* Left Side (Photo) */}
             <div className="sm:w-1/3 mb-4 sm:mb-0">

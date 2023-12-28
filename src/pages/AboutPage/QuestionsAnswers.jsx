@@ -83,7 +83,7 @@ const QuestionsAnswers = () => {
           <h2 className="font-bold text-2xl sm:text-3xl md:text-4xl">
             Why to choose US?
           </h2>
-          <div className="flex flex-wrap items-center mt-10 text-left text-center">
+          <div className="flex flex-wrap items-center mt-10 text-left">
             <div className="w-full md:w-3/5 lg:w-1/2 px-4">
               <img
                 src="https://img.freepik.com/free-vector/flat-hotel-review-background_23-2148153714.jpg?w=740&t=st=1703775209~exp=1703775809~hmac=ca4faf25ba4d68a794a2f6e1f44654049b9aa9a8ddd5d8e6b76742ad2e6fb5ad"
@@ -103,7 +103,7 @@ const QuestionsAnswers = () => {
               </p>
             </div>
           </div>
-          <div className="flex flex-wrap items-center mt-10 text-left text-center">
+          <div className="flex flex-wrap items-center mt-10 text-left">
             <div className="w-full md:w-3/5 lg:w-1/2 px-4">
               <img
                 src="https://img.freepik.com/free-vector/hotel-review-concept_23-2148148426.jpg?w=740&t=st=1703775219~exp=1703775819~hmac=21d5533b803b9c72d076e4a7abee0a7576c966635e5f734c9597dd8014572bb0"
@@ -124,7 +124,7 @@ const QuestionsAnswers = () => {
               </p>
             </div>
           </div>
-          <div className="flex flex-wrap items-center mt-10 text-left  text-center">
+          <div className="flex flex-wrap items-center mt-10 text-left">
             <div className="w-full md:w-3/5 lg:w-1/2 px-4">
               <img
                 src="https://img.freepik.com/free-vector/cheap-inn-affordable-guesthouse-college-dormitory-motel-check-hostel-services-lower-priced-accommodation-best-hostel-facilities-concept_335657-694.jpg?w=740&t=st=1703775418~exp=1703776018~hmac=bed42df5edfdec64a0b93c0f40fade541e46c33096e26867c013f7c215227086"
@@ -145,7 +145,7 @@ const QuestionsAnswers = () => {
               </p>
             </div>
           </div>
-          <div className="flex flex-wrap items-center mt-10 text-left text-center">
+          <div className="flex flex-wrap items-center mt-10 text-left">
             <div className="w-full md:w-3/5 lg:w-1/2 px-4">
               <img
                 src="https://img.freepik.com/free-vector/hotel-booking-concept-illustration_114360-2257.jpg?w=740&t=st=1703775499~exp=1703776099~hmac=0e408be220ea6ba1d73437b1ff228f49d9ca006c5d78c668b2fefed0b1c597bb"
