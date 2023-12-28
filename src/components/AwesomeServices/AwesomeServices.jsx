@@ -14,7 +14,7 @@ const AwesomeServices = () => {
       <Tabs />
       <div className="max-w-screen-xl mx-auto py-8 px-4 lg:py-16 lg:px-6">
         <div className="text-center mb-10">
-          <h2 className="text-4xl tracking-tight text-[#8861B3] font-bold text-primary-800">
+          <h2 className="text-4xl tracking-tight text-[#8861B3] font-semibold text-primary-800">
             Highlighted Features
           </h2>
         </div>
