@@ -4,6 +4,7 @@ import Houses from "../../components/Houses/Houses";
 import Offer from "../../components/Offer/Offer";
 import AwesomeServices from "../../components/AwesomeServices/AwesomeServices";
 import Subscribe from "../AboutPage/Subscribe";
+// import OurLatestOffers from "../../components/OurLatestOffers/OurLatestOffers";
 
 const Home = () => {
     return (
@@ -11,7 +12,8 @@ const Home = () => {
             <Header></Header>
             <Houses></Houses>
             <Offer/>
-            <AwesomeServices/>
+            <AwesomeServices />
+            {/* <OurLatestOffers/> */}
             <HappyClients />
             <div className="my-12">
             <Subscribe/>

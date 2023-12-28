@@ -28,11 +28,12 @@ const WebsiteOwner = () => {
         }
       );
   };
+  
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
       <div>
-        <h1 className="text-[#8861B3] font-bold text-[27px] mb-2">
-          Md Yeasin Mia
+        <h1 className="text-[#8861B3] font-bold text-2xl mb-2">
+          Md Yeasin Mia (Creator of this website!!!)
         </h1>
         <p>
           Hi, Welcome to my House Hunter Website!!! I am a passionate Mern stack
@@ -109,7 +110,7 @@ const WebsiteOwner = () => {
           {/* <div className="text-center md:w-54" data-aos="fade-down"> */}
           <div className="text-center md:w-54">
             <Link to="https://www.facebook.com/mdyeasinmia570/">
-              <FaFacebook className="flex mx-auto text-4xl cursor-pointer bg-[#0F172A] transform hover:-translate-y-3  border-2 w-16 h-16 rounded-full duration-500 text-sky-500  border-[#6B44B9] hover:bg-[#254181] dark:hover:text-white dark:text-indigo-500  p-4"></FaFacebook>
+              <FaFacebook className="flex mx-auto  text-4xl cursor-pointer bg-[#0F172A] transform hover:-translate-y-3  border-2 w-16 h-16 rounded-full duration-500  border-[#6B44B9] hover:bg-[#254181] dark:hover:text-white dark:text-indigo-500 text-white p-4"></FaFacebook>
             </Link>
 
             <h2 className="text-xl my-2 font-bold tracking-wider	 dark:text-[#abc1ff]">
@@ -122,7 +123,7 @@ const WebsiteOwner = () => {
               to="https://www.linkedin.com/in/md-yeasin-mia/"
               target="blank"
             >
-              <FaLinkedin className="flex mx-auto  text-4xl cursor-pointer bg-[#0F172A] transform hover:-translate-y-3  border-2 w-16 h-16 rounded-full duration-500 text-sky-500 border-[#6B44B9] hover:bg-[#254181] dark:hover:text-white dark:text-indigo-500 text-white p-4"></FaLinkedin>
+              <FaLinkedin className="flex mx-auto  text-4xl cursor-pointer bg-[#0F172A] transform hover:-translate-y-3  border-2 w-16 h-16 rounded-full duration-500  border-[#6B44B9] hover:bg-[#254181] dark:hover:text-white dark:text-indigo-500 text-white p-4"></FaLinkedin>
             </Link>
             <h2 className="text-xl my-2 font-bold tracking-wider dark:text-[#abc1ff]">
               LinkedIn
@@ -131,7 +132,7 @@ const WebsiteOwner = () => {
           {/* <div className="text-center md:w-54" data-aos="fade-down"> */}
           <div className="text-center md:w-54">
             <Link to="https://discord.com/channels/@mdyeasinmia" target="blank">
-              <FaDiscord className="flex mx-auto text-4xl cursor-pointer bg-[#0F172A] transform hover:-translate-y-3  border-2 w-16 h-16 rounded-full duration-500 text-sky-500 border-[#6B44B9] hover:bg-[#254181]  dark:hover:text-white dark:text-indigo-500 text-white p-4"></FaDiscord>
+              <FaDiscord className="flex mx-auto text-4xl cursor-pointer bg-[#0F172A] transform hover:-translate-y-3  border-2 w-16 h-16 rounded-full duration-500  border-[#6B44B9] hover:bg-[#254181]  dark:hover:text-white dark:text-indigo-500 text-white p-4"></FaDiscord>
             </Link>
             <h2 className="text-xl my-2 font-bold tracking-wider dark:text-[#abc1ff]">
               Discord
@@ -139,7 +140,7 @@ const WebsiteOwner = () => {
           </div>
           <div className="text-center md:w-54">
             <Link to="https://twitter.com/Iammdyeasinmia" target="blank">
-              <FaTwitter className="flex mx-auto text-4xl cursor-pointer bg-[#0F172A] transform hover:-translate-y-3  border-2 w-16 h-16 rounded-full duration-500 text-sky-500 border-[#6B44B9] hover:bg-[#254181]  dark:hover:text-white dark:text-indigo-500 text-white p-4"></FaTwitter>
+              <FaTwitter className="flex mx-auto text-4xl cursor-pointer bg-[#0F172A] transform hover:-translate-y-3  border-2 w-16 h-16 rounded-full duration-500  border-[#6B44B9] hover:bg-[#254181]  dark:hover:text-white dark:text-indigo-500 text-white p-4"></FaTwitter>
             </Link>
             <h2 className="text-xl my-2 font-bold tracking-wider dark:text-[#abc1ff]">
               Twitter

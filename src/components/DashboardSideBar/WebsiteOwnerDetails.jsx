@@ -1,9 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
-// import { FaLocationArrow, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
+import { FaDiscord, FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 import Swal from "sweetalert2";
 import owner from "../../assets/owner.jpg";
+import { Link } from "react-router-dom";
 const WebsiteOwnerDetails = () => {
   const form = useRef();
   const sendEmail = (e) => {
@@ -30,8 +31,8 @@ const WebsiteOwnerDetails = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
       <div>
-        <h1 className="text-[#8861B3] font-bold text-3xl mb-2">
-          Md Yeasin Mia (Creator!!!)
+        <h1 className="text-[#8861B3] font-bold text-2xl mb-2">
+          Md Yeasin Mia (Creator of this website!!!)
         </h1>
         <p>
           Hi, Welcome to my House Hunter Website!!! I am a passionate Mern stack
@@ -84,7 +85,7 @@ const WebsiteOwnerDetails = () => {
                   />
                 </div>
                 <textarea
-                  className="bg-transparent rounded border-2 border-[#3a1775] dark:bg-[linear-gradient(90deg,#0F172A,#38095a);] h-28 pl-4 dark:text-white w-full placeholder-text-[#729CB8] pt-2"
+                  className="bg-transparent rounded border-2 border-[#3a1775] dark:bg-[linear-gradient(90deg,#0F172A,#38095a);] h-36 pl-4 dark:text-white w-full placeholder-text-[#729CB8] pt-2"
                   rows={20}
                   cols={35}
                   name="message"
@@ -109,7 +110,48 @@ const WebsiteOwnerDetails = () => {
         </div>
       </div>
       <div>
-        <img className="rounded-md" src={owner} alt="" />
+        <img className="rounded-md w-full md:h-[510px]" src={owner} alt="" />
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-5">
+          {/* <div className="text-center md:w-54" data-aos="fade-down"> */}
+          <div className="text-center md:w-54">
+            <Link to="https://www.facebook.com/mdyeasinmia570/">
+              <FaFacebook className="flex mx-auto  text-4xl cursor-pointer bg-[#0F172A] transform hover:-translate-y-3  border-2 w-16 h-16 rounded-full duration-500  border-[#6B44B9] hover:bg-[#254181] dark:hover:text-white dark:text-indigo-500 text-white p-4"></FaFacebook>
+            </Link>
+
+            <h2 className="text-xl my-2 font-bold tracking-wider	 dark:text-[#abc1ff]">
+              Facebook
+            </h2>
+          </div>
+          {/* <div className="text-center md:w-54" data-aos="fade-up"> */}
+          <div className="text-center md:w-54">
+            <Link
+              to="https://www.linkedin.com/in/md-yeasin-mia/"
+              target="blank"
+            >
+              <FaLinkedin className="flex mx-auto  text-4xl cursor-pointer bg-[#0F172A] transform hover:-translate-y-3  border-2 w-16 h-16 rounded-full duration-500  border-[#6B44B9] hover:bg-[#254181] dark:hover:text-white dark:text-indigo-500 text-white p-4"></FaLinkedin>
+            </Link>
+            <h2 className="text-xl my-2 font-bold tracking-wider dark:text-[#abc1ff]">
+              LinkedIn
+            </h2>
+          </div>
+          {/* <div className="text-center md:w-54" data-aos="fade-down"> */}
+          <div className="text-center md:w-54">
+            <Link to="https://discord.com/channels/@mdyeasinmia" target="blank">
+              <FaDiscord className="flex mx-auto text-4xl cursor-pointer bg-[#0F172A] transform hover:-translate-y-3  border-2 w-16 h-16 rounded-full duration-500  border-[#6B44B9] hover:bg-[#254181]  dark:hover:text-white dark:text-indigo-500 text-white p-4"></FaDiscord>
+            </Link>
+            <h2 className="text-xl my-2 font-bold tracking-wider dark:text-[#abc1ff]">
+              Discord
+            </h2>
+          </div>
+          <div className="text-center md:w-54">
+            <Link to="https://twitter.com/Iammdyeasinmia" target="blank">
+              <FaTwitter className="flex mx-auto text-4xl cursor-pointer bg-[#0F172A] transform hover:-translate-y-3  border-2 w-16 h-16 rounded-full duration-500  border-[#6B44B9] hover:bg-[#254181]  dark:hover:text-white dark:text-indigo-500 text-white p-4"></FaTwitter>
+            </Link>
+            <h2 className="text-xl my-2 font-bold tracking-wider dark:text-[#abc1ff]">
+              Twitter
+            </h2>
+          </div>
+        </div>
       </div>
     </div>
   );
