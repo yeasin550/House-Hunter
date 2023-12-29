@@ -110,7 +110,7 @@ const WebsiteOwnerDetails = () => {
         </div>
       </div>
       <div>
-        <img className="rounded-md w-full md:h-[510px]" src={owner} alt="" />
+        <img className="rounded-md w-full md:h-[550px]" src={owner} alt="" />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-5">
           {/* <div className="text-center md:w-54" data-aos="fade-down"> */}
           <div className="text-center md:w-54">
