@@ -50,6 +50,7 @@ const Register = () => {
         "https://house-hunter-server-pi.vercel.app/allUsers",
         {
           fullname: data.fullName,
+          // userPhoto: ,
           role: data.role,
           phone: data.phone,
           email: data.email,
@@ -106,6 +107,17 @@ const Register = () => {
               />
               {errors.fullName && (
                 <p className="text-red-400 text-[15px]">Enter Full Name!</p>
+              )}
+            </div>
+            <div className="mt-2 border border-[#D2D4D7] rounded-md ">
+              <input
+                {...register("userPhoto", { required: true })}
+                type="file"
+                name=""
+                id=""
+              />
+              {errors.userPhoto && (
+                <p className="text-red-400 text-[15px]">Choose you photo!</p>
               )}
             </div>
             <div className="mt-2">
