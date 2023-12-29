@@ -88,7 +88,7 @@ const Register = () => {
         <div className="bg-white pt-5 rounded-xl">
           <img className="w-[165px] mx-auto" src={logo} alt="" />
           <h1 className="mt-1 text-2xl font-semibold text-slate-700">
-            Register and get house updates!
+            Register and get house updates!!
           </h1>
           <p className="text-slate-500">
             House hunter with 14 million+ people connected.
