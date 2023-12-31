@@ -30,7 +30,7 @@ const Gallery = () => {
 
       {/* gallery-section-1 */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
-        <div className="group cursor-pointer relative">
+        <div className="group cursor-pointer relative" data-aos="zoom-in">
           <img
             src="https://img.freepik.com/free-photo/patio-balcony-with-chair-around-sea-ocean-view_74190-6864.jpg?w=740&t=st=1703774310~exp=1703774910~hmac=b1a4044a4b9603d3db4583548dbe3b4cb3a6e45398e0ede5b0c155ec8e349dac"
             alt="Image 1"
@@ -42,7 +42,7 @@ const Gallery = () => {
             </button>
           </div>
         </div>
-        <div className="group cursor-pointer relative">
+        <div className="group cursor-pointer relative" data-aos="zoom-in-up">
           <img
             src="https://img.freepik.com/free-photo/umbrella-holiday-resort-luxury-pool_1203-4659.jpg?w=740&t=st=1703774306~exp=1703774906~hmac=edd5ad5de36f87c01a26d6fcdf85524e30e7224c10237b27fbe977bc15409a60"
             alt="Image 1"
@@ -54,7 +54,7 @@ const Gallery = () => {
             </button>
           </div>
         </div>
-        <div className="group cursor-pointer relative">
+        <div className="group cursor-pointer relative" data-aos="zoom-in-down">
           <img
             src="https://img.freepik.com/free-photo/luxury-pool-villa-spectacular-contemporary-design-digital-art-real-estate-home-house-property-ge_1258-150759.jpg?w=740&t=st=1703774469~exp=1703775069~hmac=d0cd9a5502200e4e84831f8303e65af266485fa71552490786ab169479f4731b"
             alt="Image 1"
@@ -66,7 +66,7 @@ const Gallery = () => {
             </button>
           </div>
         </div>
-        <div className="group cursor-pointer relative">
+        <div className="group cursor-pointer relative" data-aos="zoom-out">
           <img
             src="https://img.freepik.com/free-photo/luxury-classic-modern-bedroom-suite-hotel_105762-1787.jpg?w=740&t=st=1703774471~exp=1703775071~hmac=fe9b30805f7b9e3c7d2376474d9f59d99601af7193da2c737cb24663a7ba9eb1"
             alt="Image 1"
@@ -78,7 +78,7 @@ const Gallery = () => {
             </button>
           </div>
         </div>
-        <div className="group cursor-pointer relative">
+        <div className="group cursor-pointer relative" data-aos="zoom-out-up">
           <img
             src="https://img.freepik.com/free-photo/spa-salon-with-beach-view_53876-31335.jpg?w=740&t=st=1703774477~exp=1703775077~hmac=95619c9387a3fa651e268bd231b219a5c4473872a1502a8b9d4661a5d5f6aad7"
             alt="Image 1"
@@ -90,7 +90,7 @@ const Gallery = () => {
             </button>
           </div>
         </div>
-        <div className="group cursor-pointer relative">
+        <div className="group cursor-pointer relative" data-aos="zoom-out-down">
           <img
             src="https://img.freepik.com/free-photo/3d-rendering-beautiful-luxury-bedroom-suite-hotel-with-tv_105762-2294.jpg?w=740&t=st=1703774481~exp=1703775081~hmac=96025f6f4fe1777056b25fbdcb2e5061fc84a9e82056f7720efe042a936ab422"
             alt="Image 1"
@@ -102,7 +102,11 @@ const Gallery = () => {
             </button>
           </div>
         </div>
-        <div className="group cursor-pointer relative">
+        <div
+          className="group cursor-pointer relative"
+          data-aos="fade-up"
+          data-aos-duration="3000"
+        >
           <img
             src="https://img.freepik.com/free-photo/sunset-pool_1203-3192.jpg?w=740&t=st=1703774499~exp=1703775099~hmac=06a3af1afad1a5efaabcd0db099e5a33f6fb2c015762ba9e53f303fd81089da9"
             alt="Image 1"
@@ -114,7 +118,12 @@ const Gallery = () => {
             </button>
           </div>
         </div>
-        <div className="group cursor-pointer relative">
+        <div
+          className="group cursor-pointer relative"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+        >
           <img
             src="https://img.freepik.com/free-photo/indoor-design-luxury-resort_23-2150497283.jpg?t=st=1703774589~exp=1703778189~hmac=b785e4532e884c3524de7bb32b1a064ef36ce784630641eaa5119e8d5076195e&w=740"
             alt="Image 1"
@@ -126,7 +135,13 @@ const Gallery = () => {
             </button>
           </div>
         </div>
-        <div className="group cursor-pointer relative">
+        <div
+          className="group cursor-pointer relative"
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="300"
+          data-aos-offset="0"
+        >
           <img
             src="https://img.freepik.com/free-photo/outdoor-swimming-pool_1203-2669.jpg?w=740&t=st=1703774600~exp=1703775200~hmac=7acca9999ffed38bd24c858c9be408c23d3b977304131a513cd04670bea14466"
             alt="Image 1"
@@ -138,7 +153,12 @@ const Gallery = () => {
             </button>
           </div>
         </div>
-        <div className="group cursor-pointer relative">
+        <div
+          className="group cursor-pointer relative"
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+        >
           <img
             src="https://img.freepik.com/free-photo/cozy-studio-apartment-with-bedroom-living-space_1262-12323.jpg?w=740&t=st=1703774608~exp=1703775208~hmac=ffc40c126df0ade69c0156127672b242dc4231dbcf0d0f5bc8bc0fc7d89e036a"
             alt="Image 1"
@@ -150,7 +170,11 @@ const Gallery = () => {
             </button>
           </div>
         </div>
-        <div className="group cursor-pointer relative">
+        <div
+          className="group cursor-pointer relative"
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+        >
           <img
             src="https://img.freepik.com/free-photo/3d-rendering-modern-dining-room-living-room-with-luxury-decor-green-sofa_105762-2140.jpg?w=740&t=st=1703774656~exp=1703775256~hmac=951624a0b453693e2b6a53ea8de1825e5aa5733c934d4a5d90b5cbb895485e3a"
             alt="Image 1"
@@ -162,7 +186,11 @@ const Gallery = () => {
             </button>
           </div>
         </div>
-        <div className="group cursor-pointer relative">
+        <div
+          className="group cursor-pointer relative"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+        >
           <img
             src="https://img.freepik.com/free-photo/3d-rendering-beautiful-comtemporary-luxury-bedroom-suite-hotel-with-tv_105762-2071.jpg?w=740&t=st=1703774663~exp=1703775263~hmac=9d393af7239577c7291cbbd1e5db81487e3cbeda8e23532124646f1739817053"
             alt="Image 1"
@@ -180,22 +208,79 @@ const Gallery = () => {
       <>
         <div className="p-5 sm:p-8">
           <div className="columns-1 gap-5 sm:columns-2 sm:gap-8 md:columns-3 lg:columns-4 [&>img:not(:first-child)]:mt-8">
-            <img src="https://source.unsplash.com/bYuI23mnmDQ" />
-            <img src="https://source.unsplash.com/Nllx4R-2c3o" />
-            <img src="https://source.unsplash.com/lp40q07DIe0" />
-            <img src="https://source.unsplash.com/wfalq01jJuU" />
-            <img src="https://source.unsplash.com/rMHNK_skwwU" />
-            <img src="https://source.unsplash.com/WBMjuGpbrCQ" />
-            <img src="https://source.unsplash.com/nCUZ5BYBL_o" />
-            <img src="https://source.unsplash.com/3u4fzMQZhjc" />
-            <img src="https://source.unsplash.com/haOIqIPSwps" />
-            <img src="https://source.unsplash.com/3UrYD7NNVxk" />
-            <img src="https://source.unsplash.com/fm1JKDItlVM" />
-            <img src="https://source.unsplash.com/qPpq1EVs8vw" />
-            <img src="https://source.unsplash.com/xRyL63AwZFE" />
-            <img src="https://source.unsplash.com/XeNKWTiCPNw" />
-            <img src="https://source.unsplash.com/DFt3T5r_4FE" />
-            <img src="https://source.unsplash.com/Ebwp2-6BG8E" />
+            <img
+              src="https://source.unsplash.com/bYuI23mnmDQ"
+              data-aos="fade-up"
+              data-aos-anchor-placement="bottom-bottom"
+            />
+            <img
+              src="https://source.unsplash.com/Nllx4R-2c3o"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-center"
+            />
+            <img
+              src="https://source.unsplash.com/lp40q07DIe0"
+              data-aos="fade-up"
+              data-aos-anchor-placement="center-center"
+            />
+            <img
+              src="https://source.unsplash.com/wfalq01jJuU"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            />
+            <img
+              src="https://source.unsplash.com/rMHNK_skwwU"
+              data-aos="zoom-in-up"
+            />
+            <img
+              src="https://source.unsplash.com/WBMjuGpbrCQ"
+              data-aos="fade-up"
+              data-aos-anchor-placement="bottom-center"
+            />
+            <img
+              src="https://source.unsplash.com/nCUZ5BYBL_o"
+              data-aos="zoom-in-down"
+            />
+            <img
+              src="https://source.unsplash.com/3u4fzMQZhjc"
+              data-aos="zoom-out"
+            />
+            <img
+              src="https://source.unsplash.com/haOIqIPSwps"
+              data-aos="zoom-in-up"
+            />
+            <img
+              src="https://source.unsplash.com/3UrYD7NNVxk"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            />
+            <img
+              src="https://source.unsplash.com/fm1JKDItlVM"
+              data-aos="fade-up"
+              data-aos-anchor-placement="bottom-center"
+            />
+            <img
+              src="https://source.unsplash.com/qPpq1EVs8vw"
+              data-aos="zoom-in-up"
+            />
+            <img
+              src="https://source.unsplash.com/xRyL63AwZFE"
+              data-aos="zoom-out"
+            />
+            <img
+              src="https://source.unsplash.com/XeNKWTiCPNw"
+              data-aos="zoom-in-up"
+            />
+            <img
+              src="https://source.unsplash.com/DFt3T5r_4FE"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            />
+            <img
+              src="https://source.unsplash.com/Ebwp2-6BG8E"
+              data-aos="fade-up"
+              data-aos-anchor-placement="center-center"
+            />
           </div>
         </div>
         {/*credit by Surjith S M */}

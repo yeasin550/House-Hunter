@@ -20,7 +20,10 @@ const AwesomeServices = () => {
         </div>
         <div className="flex flex-col md:flex-row">
           {/* can help image */}
-          <div className="w-1/2 h-full mr-0 md:mr-8 mb-6 md:mb-0">
+          <div
+            className="w-1/2 h-full mr-0 md:mr-8 mb-6 md:mb-0"
+            data-aos="zoom-in-up"
+          >
             <img
               className=" mx-auto"
               src="https://img.freepik.com/free-vector/hotel-travel-accommodation-concept-template_98292-3969.jpg?w=740&t=st=1703777030~exp=1703777630~hmac=a5e7118f69a4fb14cca96968e8c68c8ddf3b95438870864b544d3631c2dea48c"
@@ -28,7 +31,10 @@ const AwesomeServices = () => {
             />
           </div>
           {/* end can help image */}
-          <div className="w-1/2 flex-1 flex flex-col sm:flex-row flex-wrap -mb-4 -mx-2">
+          <div
+            className="w-1/2 flex-1 flex flex-col sm:flex-row flex-wrap -mb-4 -mx-2"
+            data-aos="zoom-in-up"
+          >
             <div className="w-full sm:w-1/2 mb-4 px-2 ">
               <div className="h-full py-4 px-6 border border-green-500 border-t-0 border-l-0 rounded-br-xl">
                 <h3 className="text-xl font-bold text-md mb-6">
