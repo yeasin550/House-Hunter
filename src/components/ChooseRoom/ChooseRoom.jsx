@@ -68,6 +68,7 @@ const Tabs = () => {
 
   return (
     <div className="my-10">
+      <h1 className="text-4xl font-semibold text-center text-purple-600 mb-9">Choose Your Luxurious Room!</h1>
       <div className="lg:w-full bg-white" data-aos="zoom-in">
         {/* left side with tabs */}
         <div className="p-2 h-full flex">
@@ -92,10 +93,8 @@ const Tabs = () => {
           />
         </div>
         <div className="lg:w-6/12" data-aos="zoom-in">
-          
-         Coming soon............
+          Coming soon............
         </div>
-        
       </div>
     </div>
   );
