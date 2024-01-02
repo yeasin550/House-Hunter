@@ -6,7 +6,7 @@ import AwesomeServices from "../../components/AwesomeServices/AwesomeServices";
 import Subscribe from "../AboutPage/Subscribe";
 import AtHotel from "../../components/AtHotel/AtHotel";
 import ChooseRoom from "../../components/ChooseRoom/ChooseRoom";
-// import BookTable from "../../components/BookTable/BookTable";
+import BookTable from "../../components/BookTable/BookTable";
 // import OurLatestOffers from "../../components/OurLatestOffers/OurLatestOffers";
 
 const Home = () => {
@@ -14,7 +14,7 @@ const Home = () => {
         <div>
             <Header></Header>
             <Houses></Houses>
-            {/* <BookTable/> */}
+            <BookTable/>
             <Offer/>
             <AwesomeServices />
             <ChooseRoom/>
