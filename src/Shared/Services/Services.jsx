@@ -7,8 +7,12 @@ import {
   FaWheelchair,
   FaWifi,
   FaWineGlass,
-  
+  FaRestroom,
+  FaDoorOpen,
 } from "react-icons/fa";
+import { MdOutlineCheckroom, MdOutlineFitnessCenter } from "react-icons/md";
+import { BiSolidOffer } from "react-icons/bi";
+import { FiTerminal } from "react-icons/fi";
 import { AiFillCar } from "react-icons/ai";
 import { MdComputer, MdCoffee } from "react-icons/md";
 import { GiWineGlass } from "react-icons/gi";
@@ -17,17 +21,134 @@ const Services = () => {
   return (
     <div>
       <div className="py-9 bg-gray-200 rounded-sm px-12">
-        <h1 className="text-2xl font-bold">Room Services</h1>
-        <p>Home / Room Services</p>
+        <h1 className="text-2xl font-bold">Our Services</h1>
+        <p>Home / Our Services</p>
       </div>
       <>
         <div className="container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0 mt-5">
           <h2 className="mb-1 text-3xl font-extrabold leading-tight text-[#945ccf]">
-            Services
+            Our Services
           </h2>
           <p className="mb-12 text-lg text-gray-500">
             Here is a few of the awesome Services we provide.
           </p>
+
+          <div className="mb-20">
+            <h1 className="text-center font-semibold text-3xl mb-7 text-[#8861B3]">
+              Enjoy Your Best Services
+            </h1>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+              <div className="border rounded-xl hover:shadow-md p-3 w-full lg:w-[370px]">
+                <div className="text-center space-y-3 mb-3">
+                  <p className="w-12 mx-auto text-5xl text-red-500">
+                    <FaRestroom />
+                  </p>
+                  <h1 className="font-semibold text-lg text-[#8861B3]">
+                    Private Dining Rooms
+                  </h1>
+                  <p>
+                    This is the dolor sit amet consectetur adipisicing eligendi.
+                  </p>
+                </div>
+                <img
+                  src="https://img.freepik.com/free-photo/dining-area-comfortable-studio-flat-hotel-room_1262-12324.jpg?w=740&t=st=1704173336~exp=1704173936~hmac=5908e190835ce3aeacd6beb1edb6f6c13015b59bbd9e9c40d97bd1cc3dc7ad18"
+                  className="w-80 mx-auto rounded-md"
+                  alt=""
+                />
+              </div>
+              <div className="border rounded-xl hover:shadow-md p-3">
+                <div className="text-center space-y-3 mb-3">
+                  <p className="w-12 mx-auto text-5xl text-red-500">
+                    <MdOutlineCheckroom />
+                  </p>
+                  <h1 className="font-semibold text-lg text-[#8861B3]">
+                    Distinctive Rooms
+                  </h1>
+                  <p>
+                    This is the dolor sit amet consectetur adipisicing eligendi.
+                  </p>
+                </div>
+                <img
+                  src="https://img.freepik.com/free-photo/tidy-hotel-room-with-brown-curtains_1203-1493.jpg?w=740&t=st=1704174762~exp=1704175362~hmac=72936c11bbc374939049112b10f3819d258d539194418679682f7b15f12873dc"
+                  className="w-80 mx-auto rounded-md"
+                  alt=""
+                />
+              </div>
+              <div className="border rounded-xl hover:shadow-md p-3">
+                <div className="text-center space-y-3 mb-3">
+                  <p className="w-12 mx-auto text-5xl text-red-500">
+                    <BiSolidOffer />
+                  </p>
+                  <h1 className="font-semibold text-lg text-[#8861B3]">
+                    Complimentary Offers
+                  </h1>
+                  <p>
+                    This is the dolor sit amet consectetur adipisicing eligendi.
+                  </p>
+                </div>
+                <img
+                  src="https://img.freepik.com/free-psd/special-deal-super-offer-upto-60-parcent-off-isolated-3d-render-with-editable-text_47987-15330.jpg?w=740&t=st=1704174812~exp=1704175412~hmac=21819eb728c52084ee0e91071d02635cc8bb605a06f381bc8a95e40bd46904a7"
+                  className="w-80 mx-auto rounded-md"
+                  alt=""
+                />
+              </div>
+              <div className="border rounded-xl hover:shadow-md p-3">
+                <div className="text-center space-y-3 mb-3">
+                  <p className="w-12 mx-auto text-5xl text-red-500">
+                    <FaDoorOpen />
+                  </p>
+                  <h1 className="font-semibold text-lg text-[#8861B3]">
+                    The Pool
+                  </h1>
+                  <p>
+                    This is the dolor sit amet consectetur adipisicing eligendi.
+                  </p>
+                </div>
+                <img
+                  src="https://img.freepik.com/free-photo/umbrella-chair_74190-2092.jpg?w=740&t=st=1704174285~exp=1704174885~hmac=47d6872c705c3b8c91a0474aaf93e57dc7a3722f03e9cbe05a2e844af9064d0d"
+                  className="w-80 mx-auto rounded-md"
+                  alt=""
+                />
+              </div>
+              <div className="border rounded-xl hover:shadow-md p-3">
+                <div className="text-center space-y-3 mb-3">
+                  <p className="w-12 mx-auto text-5xl text-red-500">
+                    <MdOutlineFitnessCenter />
+                  </p>
+                  <h1 className="font-semibold text-lg text-[#8861B3]">
+                    Fitness Center
+                  </h1>
+                  <p>
+                    This is the dolor sit amet consectetur adipisicing eligendi.
+                  </p>
+                </div>
+                <img
+                  src="https://img.freepik.com/free-photo/bodybuilding-fitness-concept_23-2147671863.jpg?w=740&t=st=1704174188~exp=1704174788~hmac=8476546a58367ee6c26cf36183e98a586df1984446ebfb4665b3f156a4ccdcb1"
+                  className="w-80 mx-auto rounded-md"
+                  alt=""
+                />
+              </div>
+              <div className="border rounded-xl hover:shadow-md p-3">
+                <div className="text-center space-y-3 mb-3">
+                  <p className="w-12 mx-auto text-5xl text-red-500">
+                    <FiTerminal />
+                  </p>
+                  <h1 className="font-semibold text-lg text-[#8861B3]">
+                    Spa Center
+                  </h1>
+                  <p>
+                    This is the dolor sit amet consectetur adipisicing eligendi.
+                  </p>
+                </div>
+                <img
+                  src="https://img.freepik.com/free-photo/tender-african-woman-smiling-enjoying-massage-with-closed-eyes-spa-resort_176420-13956.jpg?w=740&t=st=1704174238~exp=1704174838~hmac=d2aa5c758b7d6f145f34552418f5f8ac19f3e181c136a710a0ab6fe18b5e9836"
+                  className="w-80 mx-auto rounded-md"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+
           <div className="w-full">
             <div className="flex flex-col w-full mb-10 sm:flex-row">
               <div className="w-full mb-10 sm:mb-0 sm:w-1/2">

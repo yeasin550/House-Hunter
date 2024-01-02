@@ -21,7 +21,7 @@ const AwesomeServices = () => {
         <div className="flex flex-col md:flex-row">
           {/* can help image */}
           <div
-            className="w-1/2 h-full mr-0 md:mr-8 mb-6 md:mb-0"
+            className="lg:w-1/2 h-full mr-0 md:mr-8 mb-6 md:mb-0"
             data-aos="zoom-in-up"
           >
             <img
@@ -32,7 +32,7 @@ const AwesomeServices = () => {
           </div>
           {/* end can help image */}
           <div
-            className="w-1/2 flex-1 flex flex-col sm:flex-row flex-wrap -mb-4 -mx-2"
+            className="lg:w-1/2 flex-1 flex flex-col sm:flex-row flex-wrap -mb-4 -mx-2"
             data-aos="zoom-in-up"
           >
             <div className="w-full sm:w-1/2 mb-4 px-2 ">
