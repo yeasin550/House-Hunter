@@ -21,6 +21,7 @@ import Gallery from "../pages/Gallery/Gallery";
 import OurMenu from "../pages/OurMenu/OurMenu";
 import WebsiteOwner from "../components/DashboardSideBar/WebsiteOwner";
 import WebsiteOwnerDetails from "../components/DashboardSideBar/WebsiteOwnerDetails";
+import AddNewTable from "../pages/AddNewTable/AddNewTable";
 
 const router = createBrowserRouter([
   {
@@ -84,6 +85,10 @@ const router = createBrowserRouter([
       {
         path: "/dashboard/addNewHouse",
         element: <AddNewHouse></AddNewHouse>,
+      },
+      {
+        path: "/dashboard/addNewTable",
+        element: <AddNewTable></AddNewTable>,
       },
       {
         path: "/dashboard/allUsers",

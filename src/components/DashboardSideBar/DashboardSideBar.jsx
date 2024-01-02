@@ -36,6 +36,12 @@ const DashboardSideBar = () => {
         Add New Houses
       </Link>
       <Link
+        to="/dashboard/addNewTable"
+        className="w-full border mb-2 text-[#ffffffdd] hover:bg-[#ffffff3f] py-[7px] px-3 rounded-md hover:shadow-md cursor-pointer"
+      >
+        Add New Table
+      </Link>
+      <Link
         to="/dashboard/allUsers"
         className="w-full border mb-2 text-[#ffffffdd] hover:bg-[#ffffff3f] py-[7px] px-3 rounded-md hover:shadow-md cursor-pointer"
       >
