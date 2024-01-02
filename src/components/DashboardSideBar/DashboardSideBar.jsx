@@ -1,6 +1,7 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { Link } from "react-router-dom";
 import logo from "../../assets/logo.png";
-import { useContext } from "react";
+import { useContext, useEffect, useRef, useState } from "react";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
 const DashboardSideBar = () => {
   const { user, logout } = useContext(AuthContext);
@@ -8,7 +9,30 @@ const DashboardSideBar = () => {
   const handleLogout = () => {
     logout();
   };
+  const [isMenuVisible, setMenuVisible] = useState(false);
+  const dropdownRef = useRef(null);
 
+  const toggleMenu = () => {
+    setMenuVisible(!isMenuVisible);
+  };
+
+  const hideMenu = () => {
+    setMenuVisible(false);
+  };
+
+  const handleClickOutside = (event) => {
+    if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+      hideMenu();
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener("click", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("click", handleClickOutside);
+    };
+  }, []);
   const houseOwner = (
     <>
       <Link
@@ -29,18 +53,41 @@ const DashboardSideBar = () => {
       >
         All Booked Houses
       </Link>
-      <Link
+      {/* <Link
         to="/dashboard/addNewHouse"
         className="w-full border mb-2 text-[#ffffffdd] hover:bg-[#ffffff3f] py-[7px] px-3 rounded-md hover:shadow-md cursor-pointer"
       >
         Add New Houses
-      </Link>
-      <Link
+      </Link> */}
+      <div
+        className="relative group cursor-pointer z-50 px-3 mb-2 w-full border text-[#ffffffdd] hover:bg-[#ffffff3f] py-[7px]  rounded-md hover:shadow-md"
+        onClick={toggleMenu}
+        ref={dropdownRef}
+      >
+        Add New Houses
+        {isMenuVisible && (
+          <div className="absolute left-0 w-full flex flex-col mt-2 space-y-2 bg-gray-100 rounded-md text-white p-4">
+            <Link
+              to="/dashboard/addNewHouse"
+              className="w-full border mb-2 text-[#ffffffdd] hover:bg-[#bfa0e2] bg-[#9871c2] py-[7px] px-3 rounded-md hover:shadow-md cursor-pointer"
+            >
+              Add New Houses
+            </Link>
+            <Link
+              to="/dashboard/addNewTable"
+              className="w-full border mb-2 text-[#ffffffdd] hover:bg-[#bfa0e2] bg-[#9871c2] py-[7px] px-3 rounded-md hover:shadow-md cursor-pointer"
+            >
+              Add New Table
+            </Link>
+          </div>
+        )}
+      </div>
+      {/* <Link
         to="/dashboard/addNewTable"
         className="w-full border mb-2 text-[#ffffffdd] hover:bg-[#ffffff3f] py-[7px] px-3 rounded-md hover:shadow-md cursor-pointer"
       >
         Add New Table
-      </Link>
+      </Link> */}
       <Link
         to="/dashboard/allUsers"
         className="w-full border mb-2 text-[#ffffffdd] hover:bg-[#ffffff3f] py-[7px] px-3 rounded-md hover:shadow-md cursor-pointer"
@@ -53,7 +100,6 @@ const DashboardSideBar = () => {
       >
         Go Back Home
       </Link>
-
     </>
   );
 
@@ -81,7 +127,7 @@ const DashboardSideBar = () => {
   );
 
   return (
-    <div className="w-[270px] md:h-screen overflow-hidden relative bg-[var(--primary-color)] py-5 px-2">
+    <div className="lg:w-[270px] md:h-screen overflow-hidden relative bg-[var(--primary-color)] py-5 px-2">
       <div className="flex items-center justify-between">
         <Link to="/">
           <img className="w-[100%]" src={logo} alt="" />
@@ -92,7 +138,7 @@ const DashboardSideBar = () => {
         {user.role === "House Owner" ? houseOwner : houseRenter}
       </div>
 
-      <div className="flex flex-col absolute w-[94%] left-[3%] bottom-10">
+      <div className="flex flex-col absolute w-[94%] lg:mt-0 mt-12 left-[3%] bottom-10">
         <div className="flex items-center">
           <img
             className="w-[30px] h-[30px] mb-2 rounded-full border-2 border-gray-300"

@@ -79,11 +79,16 @@ const NavBar = () => {
             >
               Our Menu
             </Link>
+            <Link
+              className="hover:bg-[#1967D2] rounded- hover:p-[3px]"
+              to="/blogs"
+              onClick={hideMenu}
+            >
+              Blogs
+            </Link>
           </div>
         )}
       </div>
-      {/* <Link to="/about">About</Link> */}
-      {/* <Link to="/contact">Contact</Link> */}
 
       {user ? (
         <Link

@@ -22,6 +22,7 @@ import OurMenu from "../pages/OurMenu/OurMenu";
 import WebsiteOwner from "../components/DashboardSideBar/WebsiteOwner";
 import WebsiteOwnerDetails from "../components/DashboardSideBar/WebsiteOwnerDetails";
 import AddNewTable from "../pages/AddNewTable/AddNewTable";
+import Blogs from "../pages/Blogs/Blogs";
 
 const router = createBrowserRouter([
   {
@@ -63,6 +64,10 @@ const router = createBrowserRouter([
       {
         path: "websiteOwnerDetails",
         element: <WebsiteOwnerDetails/>,
+      },
+      {
+        path: "blogs",
+        element: <Blogs/>,
       },
     ],
   },
