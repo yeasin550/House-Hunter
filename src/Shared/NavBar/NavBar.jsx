@@ -1,5 +1,5 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../../assets/logo.png";
 // import './NavBar.css';
 import { useContext, useEffect, useRef, useState } from "react";
@@ -37,12 +37,19 @@ const NavBar = () => {
   // NavBar List Items
   const listItems = (
     <>
-      <Link className="hover:font-bold" to="/">
+      <NavLink
+        className={({ isActive }) => (isActive ? "font-bold" : "default")}
+        to="/"
+      >
         Home
-      </Link>
-      <Link className="hover:font-bold" to="/services">
+      </NavLink>
+      <NavLink
+        className={({ isActive }) => (isActive ? "font-bold" : "default")}
+        to="/services"
+      >
         Services
-      </Link>
+      </NavLink>
+
       <div
         className="relative group cursor-pointer z-50"
         onClick={toggleMenu}
@@ -51,41 +58,61 @@ const NavBar = () => {
         <span className="hover:font-bold">Pages</span>
         {isMenuVisible && (
           <div className="absolute left-0 flex flex-col mt-2 space-y-2 bg-[#9871c2] rounded-md text-white p-4 w-32">
-            <Link
-              className="hover:bg-[#1967D2] rounded- hover:p-[3px]"
+            <NavLink
+              className={({ isActive }) =>
+                isActive
+                  ? "font-bold bg-[#1967D2] rounded-md p-2"
+                  : "default hover:bg-[#1967D2] rounded- hover:p-[3px]"
+              }
               to="/about"
               onClick={hideMenu}
             >
               About
-            </Link>
-            <Link
-              className="hover:bg-[#1967D2] rounded- hover:p-[3px]"
+            </NavLink>
+            <NavLink
+              className={({ isActive }) =>
+                isActive
+                  ? "font-bold bg-[#1967D2] rounded-md p-2"
+                  : "default hover:bg-[#1967D2] rounded- hover:p-[3px]"
+              }
               to="/contact"
               onClick={hideMenu}
             >
               Contact
-            </Link>
-            <Link
-              className="hover:bg-[#1967D2] rounded- hover:p-[3px]"
+            </NavLink>
+            <NavLink
+              className={({ isActive }) =>
+                isActive
+                  ? "font-bold bg-[#1967D2] rounded-md p-2"
+                  : "default hover:bg-[#1967D2] rounded- hover:p-[3px]"
+              }
               to="/gallery"
               onClick={hideMenu}
             >
               Gallery
-            </Link>
-            <Link
-              className="hover:bg-[#1967D2] rounded- hover:p-[3px]"
+            </NavLink>
+            <NavLink
+              className={({ isActive }) =>
+                isActive
+                  ? "font-bold bg-[#1967D2] rounded-md p-2"
+                  : "default hover:bg-[#1967D2] rounded- hover:p-[3px]"
+              }
               to="/ourMenu"
               onClick={hideMenu}
             >
               Our Menu
-            </Link>
-            <Link
-              className="hover:bg-[#1967D2] rounded- hover:p-[3px]"
+            </NavLink>
+            <NavLink
+              className={({ isActive }) =>
+                isActive
+                  ? "font-bold bg-[#1967D2] rounded-md p-2"
+                  : "default hover:bg-[#1967D2] rounded- hover:p-[3px]"
+              }
               to="/blogs"
               onClick={hideMenu}
             >
               Blogs
-            </Link>
+            </NavLink>
           </div>
         )}
       </div>
