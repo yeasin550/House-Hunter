@@ -25,7 +25,7 @@ const Services = () => {
         <p>Home / Our Services</p>
       </div>
       <>
-        <div className="container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0 mt-5">
+        <div className="container relative flex flex-col justify-between h-full max-w-6xl lg:px-10 mx-auto xl:px-0 mt-5">
           <h2 className="mb-1 text-3xl font-extrabold leading-tight text-[#945ccf]">
             Our Services
           </h2>
@@ -38,7 +38,11 @@ const Services = () => {
               Enjoy Your Best Services
             </h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-              <div className="border rounded-xl hover:shadow-md p-3 w-full lg:w-[370px]">
+              <div
+                className="border rounded-xl hover:shadow-md hover:shadow-[#8861B3] p-3"
+                data-aos="zoom-in-up"
+                data-aos-duration="3000"
+              >
                 <div className="text-center space-y-3 mb-3">
                   <p className="w-12 mx-auto text-5xl text-red-500">
                     <FaRestroom />
@@ -56,7 +60,11 @@ const Services = () => {
                   alt=""
                 />
               </div>
-              <div className="border rounded-xl hover:shadow-md p-3">
+              <div
+                className="border rounded-xl hover:shadow-md hover:shadow-[#8861B3] p-3"
+                data-aos="zoom-in-up"
+                data-aos-duration="3000"
+              >
                 <div className="text-center space-y-3 mb-3">
                   <p className="w-12 mx-auto text-5xl text-red-500">
                     <MdOutlineCheckroom />
@@ -74,7 +82,11 @@ const Services = () => {
                   alt=""
                 />
               </div>
-              <div className="border rounded-xl hover:shadow-md p-3">
+              <div
+                className="border rounded-xl hover:shadow-md hover:shadow-[#8861B3] p-3"
+                data-aos="zoom-in-up"
+                data-aos-duration="3000"
+              >
                 <div className="text-center space-y-3 mb-3">
                   <p className="w-12 mx-auto text-5xl text-red-500">
                     <BiSolidOffer />
@@ -92,7 +104,11 @@ const Services = () => {
                   alt=""
                 />
               </div>
-              <div className="border rounded-xl hover:shadow-md p-3">
+              <div
+                className="border rounded-xl hover:shadow-md hover:shadow-[#8861B3] p-3"
+                data-aos="zoom-in-up"
+                data-aos-duration="1000"
+              >
                 <div className="text-center space-y-3 mb-3">
                   <p className="w-12 mx-auto text-5xl text-red-500">
                     <FaDoorOpen />
@@ -110,7 +126,11 @@ const Services = () => {
                   alt=""
                 />
               </div>
-              <div className="border rounded-xl hover:shadow-md p-3">
+              <div
+                className="border rounded-xl hover:shadow-md hover:shadow-[#8861B3] p-3"
+                data-aos="zoom-in-up"
+                data-aos-duration="1000"
+              >
                 <div className="text-center space-y-3 mb-3">
                   <p className="w-12 mx-auto text-5xl text-red-500">
                     <MdOutlineFitnessCenter />
@@ -128,7 +148,11 @@ const Services = () => {
                   alt=""
                 />
               </div>
-              <div className="border rounded-xl hover:shadow-md p-3">
+              <div
+                className="border rounded-xl hover:shadow-md hover:shadow-[#8861B3] p-3"
+                data-aos="zoom-in-up"
+                data-aos-duration="1000"
+              >
                 <div className="text-center space-y-3 mb-3">
                   <p className="w-12 mx-auto text-5xl text-red-500">
                     <FiTerminal />
@@ -151,7 +175,11 @@ const Services = () => {
 
           <div className="w-full">
             <div className="flex flex-col w-full mb-10 sm:flex-row">
-              <div className="w-full mb-10 sm:mb-0 sm:w-1/2">
+              <div
+                className="w-full mb-10 sm:mb-0 sm:w-1/2"
+                data-aos="zoom-in"
+                data-aos-duration="2000"
+              >
                 <div className="relative h-full ml-0 mr-0 sm:mr-10">
                   <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-indigo-500 rounded-lg" />
                   <div className="relative h-full p-5 bg-white border-2 border-indigo-500 rounded-lg">
@@ -172,7 +200,11 @@ const Services = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-full sm:w-1/2">
+              <div
+                className="w-full sm:w-1/2"
+                data-aos="zoom-in"
+                data-aos-duration="2000"
+              >
                 <div className="relative h-full ml-0 md:mr-10">
                   <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-purple-500 rounded-lg" />
                   <div className="relative h-full p-5 bg-white border-2 border-purple-500 rounded-lg">
@@ -195,7 +227,11 @@ const Services = () => {
               </div>
             </div>
             <div className="flex flex-col w-full mb-5 sm:flex-row">
-              <div className="w-full mb-10 sm:mb-0 sm:w-1/2">
+              <div
+                className="w-full mb-10 sm:mb-0 sm:w-1/2"
+                data-aos="zoom-in-up"
+                data-aos-duration="2000"
+              >
                 <div className="relative h-full ml-0 mr-0 sm:mr-10">
                   <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-blue-400 rounded-lg" />
                   <div className="relative h-full p-5 bg-white border-2 border-blue-400 rounded-lg">
@@ -216,7 +252,11 @@ const Services = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-full mb-10 sm:mb-0 sm:w-1/2">
+              <div
+                className="w-full mb-10 sm:mb-0 sm:w-1/2"
+                data-aos="zoom-in-up"
+                data-aos-duration="2000"
+              >
                 <div className="relative h-full ml-0 mr-0 sm:mr-10">
                   <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-yellow-400 rounded-lg" />
                   <div className="relative h-full p-5 bg-white border-2 border-yellow-400 rounded-lg">
@@ -238,7 +278,11 @@ const Services = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-full sm:w-1/2">
+              <div
+                className="w-full sm:w-1/2"
+                data-aos="zoom-in-up"
+                data-aos-duration="2000"
+              >
                 <div className="relative h-full ml-0 md:mr-10">
                   <span className="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-green-500 rounded-lg" />
                   <div className="relative h-full p-5 bg-white border-2 border-green-500 rounded-lg">
@@ -267,73 +311,73 @@ const Services = () => {
       </>
 
       <div className="my-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-        <div className="border-[2px] shadow-md hover:shadow-lg rounded-sm border-dotted flex flex-col items-center justify-center p-4 space-y-2">
+        <div className="border-[2px] shadow-md hover:shadow-[#8861B3] rounded-sm border-dotted flex flex-col items-center justify-center p-4 space-y-2">
           <div className="text-2xl">
             <AiFillCar />
           </div>
           <p className="text-lg">Airport Pickup</p>
         </div>
-        <div className="border-[2px] shadow-md hover:shadow-lg rounded-sm border-dotted flex flex-col items-center justify-center p-4 space-y-2">
+        <div className="border-[2px] shadow-md hover:shadow-[#8861B3] rounded-sm border-dotted flex flex-col items-center justify-center p-4 space-y-2">
           <div className="text-2xl">
             <FaWifi />
           </div>
           <p className="text-lg">Wi-Fi</p>
         </div>
-        <div className="border-[2px] shadow-md hover:shadow-lg rounded-sm border-dotted flex flex-col items-center justify-center p-4 space-y-2">
+        <div className="border-[2px] shadow-md hover:shadow-[#8861B3] rounded-sm border-dotted flex flex-col items-center justify-center p-4 space-y-2">
           <div className="text-2xl">
             <FaRegEyeSlash />
           </div>
           <p className="text-lg">Private Balcony</p>
         </div>
-        <div className="border-[2px] shadow-md hover:shadow-lg rounded-sm border-dotted flex flex-col items-center justify-center p-4 space-y-2">
+        <div className="border-[2px] shadow-md hover:shadow-[#8861B3] rounded-sm border-dotted flex flex-col items-center justify-center p-4 space-y-2">
           <div className="text-2xl">
             <FaChair />
           </div>
           <p className="text-lg">Air Conditioner</p>
         </div>
-        <div className="border-[2px] shadow-md hover:shadow-lg rounded-sm border-dotted flex flex-col items-center justify-center p-4 space-y-2">
+        <div className="border-[2px] shadow-md hover:shadow-[#8861B3] rounded-sm border-dotted flex flex-col items-center justify-center p-4 space-y-2">
           <div className="text-2xl">
             <MdComputer />
           </div>
           <p className="text-lg">Widescreen TV</p>
         </div>
-        <div className="border-[2px] shadow-md hover:shadow-lg rounded-sm border-dotted flex flex-col items-center justify-center p-4 space-y-2">
+        <div className="border-[2px] shadow-md hover:shadow-[#8861B3] rounded-sm border-dotted flex flex-col items-center justify-center p-4 space-y-2">
           <div className="text-2xl">
             <FaSpa />
           </div>
           <p className="text-lg">Massage & Spa</p>
         </div>
-        <div className="border-[2px] shadow-md hover:shadow-lg rounded-sm border-dotted flex flex-col items-center justify-center p-4 space-y-2">
+        <div className="border-[2px] shadow-md hover:shadow-[#8861B3] rounded-sm border-dotted flex flex-col items-center justify-center p-4 space-y-2">
           <div className="text-2xl">
             <MdCoffee />
           </div>
           <p className="text-lg">Coffee Maker</p>
         </div>
-        <div className="border-[2px] shadow-md hover:shadow-lg rounded-sm border-dotted flex flex-col items-center justify-center p-4 space-y-2">
+        <div className="border-[2px] shadow-md hover:shadow-[#8861B3] rounded-sm border-dotted flex flex-col items-center justify-center p-4 space-y-2">
           <div className="text-2xl">
             <FaWheelchair />
           </div>
           <p className="text-lg">Hair Dryer</p>
         </div>
-        <div className="border-[2px] shadow-md hover:shadow-lg rounded-sm border-dotted flex flex-col items-center justify-center p-4 space-y-2">
+        <div className="border-[2px] shadow-md hover:shadow-[#8861B3] rounded-sm border-dotted flex flex-col items-center justify-center p-4 space-y-2">
           <div className="text-2xl">
             <FaWineGlass />
           </div>
           <p className="text-lg">Breakfast</p>
         </div>
-        <div className="border-[2px] shadow-md hover:shadow-lg rounded-sm border-dotted flex flex-col items-center justify-center p-4 space-y-2">
+        <div className="border-[2px] shadow-md hover:shadow-[#8861B3] rounded-sm border-dotted flex flex-col items-center justify-center p-4 space-y-2">
           <div className="text-2xl">
             <FaShower />
           </div>
           <p className="text-lg">Sauna</p>
         </div>
-        <div className="border-[2px] shadow-md hover:shadow-lg rounded-sm border-dotted flex flex-col items-center justify-center p-4 space-y-2">
+        <div className="border-[2px] shadow-md hover:shadow-[#8861B3] rounded-sm border-dotted flex flex-col items-center justify-center p-4 space-y-2">
           <div className="text-2xl">
             <GiWineGlass />
           </div>
           <p className="text-lg">Mini Bar</p>
         </div>
-        <div className="border-[2px] shadow-md hover:shadow-lg rounded-sm border-dotted flex flex-col items-center justify-center p-4 space-y-2">
+        <div className="border-[2px] shadow-md hover:shadow-[#8861B3] rounded-sm border-dotted flex flex-col items-center justify-center p-4 space-y-2">
           <div className="text-2xl">
             <FaMobileAlt />
           </div>
