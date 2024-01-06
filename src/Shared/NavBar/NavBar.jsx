@@ -6,7 +6,11 @@ import { useContext, useEffect, useRef, useState } from "react";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
 const NavBar = () => {
   const { logout, user } = useContext(AuthContext);
+  const [isClicked, setIsClicked] = useState(false);
 
+  const handleClick = () => {
+    setIsClicked(!isClicked);
+  };
   const handleLogout = () => {
     logout();
   };
@@ -38,13 +42,17 @@ const NavBar = () => {
   const listItems = (
     <>
       <NavLink
-        className={({ isActive }) => (isActive ? "font-bold" : "default")}
+        className={({ isActive }) =>
+          isActive ? "font-bold border-b-2 border-[#8861B3]" : "default"
+        }
         to="/"
       >
         Home
       </NavLink>
       <NavLink
-        className={({ isActive }) => (isActive ? "font-bold" : "default")}
+        className={({ isActive }) =>
+          isActive ? "font-bold border-b-2 border-[#8861B3]" : "default"
+        }
         to="/services"
       >
         Services
@@ -55,7 +63,15 @@ const NavBar = () => {
         onClick={toggleMenu}
         ref={dropdownRef}
       >
-        <span className="hover:font-bold">Pages</span>
+        {/* <span className="hover:font-bold">Pages</span> */}
+        <span
+          className={`cursor-pointer ${
+            isClicked ? "font-bold border-b-2 border-[#8861B3]" : ""
+          }`}
+          onClick={handleClick}
+        >
+          Pages
+        </span>
         {isMenuVisible && (
           <div className="absolute left-0 flex flex-col mt-2 space-y-2 bg-[#9871c2] rounded-md text-white p-4 w-32">
             <NavLink
