@@ -100,24 +100,24 @@ const House = ({ house }) => {
         <h2 className="card-title capitalize">{house?.title}</h2>
         <div className="w-full flex items-center justify-between">
           <p className="text-[18px]">
-            <mark className="p-[2px] px-2 rounded-xl bg-[var(--opacity-color)]">
+            <mark className="p-[2px] px-2 rounded-md bg-purple-500 text-white">
               <small className="pr-[1px]">BDT</small>
               {house?.price}
               <span className="text-[var(--primary-color)]">K</span>
             </mark>
           </p>
-          <div className="flex items-center justify-center gap-1">
-            <p className="text-[18px] text-center flex items-center justify-center gap-1 bg-[var(--opacity-color)] p-1 px-2 rounded-xl">
+          <div className="flex items-center justify-center gap-1 text-white">
+            <p className="text-[18px] text-center flex items-center justify-center gap-1 bg-purple-500 p-1 px-2 rounded-md">
               <BiBed />
               {house?.bedrooms}
             </p>
-            <p className="text-[18px] text-center flex items-center justify-center gap-1 bg-[var(--opacity-color)] p-1 px-2 rounded-xl">
+            <p className="text-[18px] text-center flex items-center justify-center gap-1 bg-purple-500 p-1 px-2 rounded-md">
               <LiaBathSolid />
               {house?.bathrooms}
             </p>
           </div>
           <p className="text-[18px] text-right">
-            <mark className="rounded-xl p-[2px] px-2 bg-[var(--opacity-color)]">
+            <mark className="rounded-md p-[2px] px-2 bg-purple-500 text-white">
               {house?.residential}
             </mark>
           </p>
@@ -128,7 +128,7 @@ const House = ({ house }) => {
         </div>
         <div className="flex items-center justify-between">
           <p className="text-[18px] text-left">
-            <mark className="rounded-xl p-[2px] px-2 bg-[var(--opacity-color)]">
+            <mark className="rounded-md p-[2px] px-2 bg-purple-500 text-white">
               TO:{" "}
               {house.availability ? (
                 house.availability
