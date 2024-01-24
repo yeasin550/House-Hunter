@@ -1,6 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { Link, NavLink } from "react-router-dom";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/navLogo.png";
 // import './NavBar.css';
 import { useContext, useEffect, useRef, useState } from "react";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
@@ -43,7 +43,9 @@ const NavBar = () => {
     <>
       <NavLink
         className={({ isActive }) =>
-          isActive ? "font-bold border-b-2 border-[#8861B3]" : "default"
+          isActive
+            ? "font-semibold border-b-2 text-purple-600 border-[#8861B3]"
+            : "font-semibold text-purple-600 border-[#8861B3]"
         }
         to="/"
       >
@@ -51,7 +53,9 @@ const NavBar = () => {
       </NavLink>
       <NavLink
         className={({ isActive }) =>
-          isActive ? "font-bold border-b-2 border-[#8861B3]" : "default"
+          isActive
+            ? "font-semibold border-b-2 text-purple-600 border-[#8861B3]"
+            : "font-semibold text-purple-600 border-[#8861B3]"
         }
         to="/services"
       >
@@ -66,14 +70,16 @@ const NavBar = () => {
         {/* <span className="hover:font-bold">Pages</span> */}
         <span
           className={`cursor-pointer ${
-            isClicked ? "font-bold border-b-2 border-[#8861B3]" : ""
+            isClicked
+              ? "font-semibold text-purple-600 border-[#8861B3]"
+              : "font-semibold"
           }`}
           onClick={handleClick}
         >
           Pages
         </span>
         {isMenuVisible && (
-          <div className="absolute left-0 flex flex-col mt-2 space-y-2 bg-[#9871c2] rounded-md text-white p-4 w-32">
+          <div className="absolute left-0 flex flex-col mt-2 space-y-2 bg-purple-600 rounded-md text-white p-4 w-32">
             <NavLink
               className={({ isActive }) =>
                 isActive
@@ -136,7 +142,7 @@ const NavBar = () => {
       {user ? (
         <Link
           to="/dashboard"
-          className="bg-[var(--primary-color)] rounded-xl hover:rounded-md text-white py-1 hover:py-2 px-3"
+          className="bg-[var(--primary-color)] rounded-md text-white py-1 px-3"
         >
           Dashboard
         </Link>
@@ -175,11 +181,11 @@ const NavBar = () => {
             </ul>
           </div>
           <div className="flex items-center">
-            <Link
-              to="/"
-              className=" text-2xl uppercase font-semibold text-gray-700"
-            >
-              <img className="w-[180px]" src={logo} alt="" />
+            <Link to="/" className=" text-lg font-semibold text-purple-600">
+              {/* <p className="text-2xl text-center">🏡</p> */}
+              <img className="w-[100px]" src={logo} alt="" />
+
+              {/* House Hunter */}
             </Link>
           </div>
         </div>
@@ -196,39 +202,39 @@ const NavBar = () => {
                   id="parent-user-profile"
                   className="flex items-center gap-x-1"
                 >
-                  <Link
-                    to="/dashboard"
-                    className="badge bg-[var(--primary-color)] text-white -mb-1 cursor-pointer w-full font-normal p-4 text-[17px] hover:rounded-md hover:py-4"
-                  >
-                    {user?.fullname}
-                  </Link>
                   <label
                     id="user-pic"
                     tabIndex={0}
                     className=" btn btn-ghost btn-circle avatar flex-row-reverse"
                   >
-                    <div className="w-12 rounded-full">
+                    <div className="w-14 rounded-full border-2 border-purple-600 hover:shadow-lg">
                       <img src="https://img.freepik.com/premium-vector/man-avatar-profile-picture-vector-illustration_268834-538.jpg" />
                     </div>
                   </label>
                 </div>
                 <ul
                   tabIndex={0}
-                  className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+                  className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 space-y-1"
                 >
-                  <li>
+                  <Link
+                    to="/dashboard"
+                    className="badge bg-[var(--primary-color)] text-white -mb-1 cursor-pointer w-full font-normal p-4 text-[17px] rounded-md hover:py-4"
+                  >
+                    {user?.fullname}
+                  </Link>
+                  <li className="hover:border-2 rounded-lg border-purple-600 text-[16px]">
                     <Link to="/dashboard" className="justify-between">
                       Dashboard
-                      <span className="badge">New</span>
+                      <span className="badge border-purple-600">New</span>
                     </Link>
                   </li>
-                  <li>
+                  <li className="hover:border-2 rounded-lg border-purple-600 text-[16px]">
                     <Link onClick={handleLogout}>Logout</Link>
                   </li>
                   <li>
                     <Link
                       to="/dashboard/websiteOwner"
-                      className="font-bold text-lg w-full text-[#ffffffdd] hover:text-[#ffffffdd] border my-2 bg-[#8861B3] hover:bg-[#9775b6] py-[7px] px-3 rounded-md shadow-md cursor-pointer"
+                      className="text-[17px] w-full text-white hover:text-[#ffffffdd] border my-2 bg-[var(--primary-color)] hover:bg-[#9775b6] py-[7px] px-3 rounded-md shadow-md cursor-pointer"
                     >
                       Website Owner
                     </Link>

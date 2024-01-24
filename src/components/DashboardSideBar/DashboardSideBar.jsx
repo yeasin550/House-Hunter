@@ -1,6 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { Link } from "react-router-dom";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/dashLogo.png";
 import { useContext, useEffect, useRef, useState } from "react";
 import { AuthContext } from "../../AuthProvider/AuthProvider";
 const DashboardSideBar = () => {
@@ -69,13 +69,13 @@ const DashboardSideBar = () => {
           <div className="absolute left-0 w-full flex flex-col mt-2 space-y-2 bg-gray-100 rounded-md text-white p-4">
             <Link
               to="/dashboard/addNewHouse"
-              className="w-full border mb-2 text-[#ffffffdd] hover:bg-[#bfa0e2] bg-[#9871c2] py-[7px] px-3 rounded-md hover:shadow-md cursor-pointer"
+              className="w-full border mb-2 text-[#ffffffdd] hover:bg-[#bfa0e2] bg-purple-600 py-[7px] px-3 rounded-md hover:shadow-md cursor-pointer"
             >
               Add New Houses
             </Link>
             <Link
               to="/dashboard/addNewTable"
-              className="w-full border mb-2 text-[#ffffffdd] hover:bg-[#bfa0e2] bg-[#9871c2] py-[7px] px-3 rounded-md hover:shadow-md cursor-pointer"
+              className="w-full border mb-2 text-[#ffffffdd] hover:bg-[#bfa0e2] bg-purple-600 py-[7px] px-3 rounded-md hover:shadow-md cursor-pointer"
             >
               Add New Table
             </Link>
@@ -127,10 +127,10 @@ const DashboardSideBar = () => {
   );
 
   return (
-    <div className="lg:w-[270px] md:h-screen overflow-hidden relative bg-[var(--primary-color)] py-5 px-2">
+    <div className="lg:w-[270px] md:h-screen overflow-hidden relative bg-[var(--primary-color)] py-2 px-2">
       <div className="flex items-center justify-between">
         <Link to="/">
-          <img className="w-[100%]" src={logo} alt="" />
+          <img className="w-[60%] mx-auto" src={logo} alt="" />
         </Link>
       </div>
       <div className="my-2 w-full h-[2px] bg-gray-300"></div>

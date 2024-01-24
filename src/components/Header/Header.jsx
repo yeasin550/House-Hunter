@@ -69,7 +69,7 @@ const Header = () => {
               Search with multiple option, as your need!
             </h1>
             <p className=" text-2xl flex flex-col md:flex-row">
-              <span className="bg-[var(--primary-color)] px-3 py-0 text-[20px] rounded-full font-medium shadow-md mb-5">
+              <span className="bg-[var(--primary-color)] text-white px-3 py-0 text-[20px] rounded-full font-medium shadow-md mb-5">
                 <TypeAnimation
                   sequence={[
                     "Choose your affordable price.", // Types 'One'

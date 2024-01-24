@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import House from "./House";
+import logo from "../../assets/availables.png";
 import { MagnifyingGlass } from "react-loader-spinner";
 const Houses = () => {
   const [houses, setHouses] = useState([]);
@@ -30,10 +31,11 @@ const Houses = () => {
 
   return (
     <div>
-      <div className="w-[200px] mx-auto mt-7">
+      <div className="w-[250px] mx-auto mt-3">
         <img
-          className="w-[200px]"
-          src="https://i.ibb.co/cCPf9f7/houses.png"
+          className="w-[250px]"
+          // src="https://i.ibb.co/cCPf9f7/houses.png"
+          src={logo}
           alt=""
         />
       </div>
