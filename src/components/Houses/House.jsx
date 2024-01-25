@@ -124,7 +124,7 @@ const House = ({ house }) => {
         </div>
         <div className="flex items-center mt-1 text-[var(--primary-color)]">
           <IoLocationOutline size={17} />{" "}
-          <p className="text-[16px] text-gray-600 ml-1">{house?.location}</p>
+          <p className="text-[17px] text-gray-600 ml-1">{house?.location}</p>
         </div>
         <div className="flex items-center justify-between">
           <p className="text-[18px] text-left">

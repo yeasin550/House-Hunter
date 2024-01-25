@@ -1,5 +1,5 @@
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/navLogo.png";
 import { useForm } from "react-hook-form";
 import axios from "axios";
 import { useContext, useState } from "react";
@@ -82,7 +82,7 @@ const Login = () => {
             {" "}
             <img className="w-[165px] mx-auto" src={logo} alt="" />
           </Link>
-          <h1 className="mt-5 text-2xl font-semibold text-slate-700">
+          <h1 className="text-2xl font-semibold text-slate-700">
             Login and get house updates!
           </h1>
           <p className="text-slate-500">
@@ -140,7 +140,7 @@ const Login = () => {
             </div>
             <input
               type="submit"
-              className="btn btn-block hover:bg-[var(--primary-color)] hover:bg-opacity-50 bg-[var(--hover-color)] bg-opacity-60 text-white font-medium text-lg mt-2"
+              className="btn btn-block bg-[var(--primary-color)] hover:bg-opacity-50 hover:bg-[var(--hover-color)] bg-opacity-60 text-white font-medium text-lg mt-2"
               value="Login now"
             />
             <p className="mt-2 text-[15px]">

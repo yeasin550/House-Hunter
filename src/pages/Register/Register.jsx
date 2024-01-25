@@ -1,5 +1,5 @@
 import { Link, useNavigate } from "react-router-dom";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/navs.png";
 import { useForm } from "react-hook-form";
 import axios from "axios";
 import { useState } from "react";
@@ -90,9 +90,9 @@ const Register = () => {
           <h1 className="mt-1 text-2xl font-semibold text-slate-700">
             Register and get house updates!!
           </h1>
-          <p className="text-slate-500">
+          {/* <p className="text-slate-500">
             House hunter with 14 million+ people connected.
-          </p>
+          </p> */}
 
           <form
             className="mt-2 border  p-5 rounded-lg"
@@ -109,7 +109,7 @@ const Register = () => {
                 <p className="text-red-400 text-[15px]">Enter Full Name!</p>
               )}
             </div>
-            <div className="mt-2 border border-[#D2D4D7] rounded-md ">
+            {/* <div className="mt-2 border border-[#D2D4D7] rounded-md ">
               <input
                 {...register("userPhoto", { required: true })}
                 type="file"
@@ -119,7 +119,7 @@ const Register = () => {
               {errors.userPhoto && (
                 <p className="text-red-400 text-[15px]">Choose you photo!</p>
               )}
-            </div>
+            </div> */}
             <div className="mt-2">
               <select
                 {...register("role", { required: true })}
@@ -201,7 +201,7 @@ const Register = () => {
             </div>
             <input
               type="submit"
-              className="btn btn-block hover:bg-[var(--primary-color)] hover:bg-opacity-50 bg-[var(--hover-color)] bg-opacity-60 text-white font-medium text-lg mt-2"
+              className="btn btn-block bg-[var(--primary-color)] hover:bg-opacity-50 hover:bg-[var(--hover-color)] bg-opacity-60 text-white font-medium text-lg mt-2"
               value="Register Now"
             />
             <p className="mt-2 text-[15px]">

@@ -9,7 +9,9 @@ const Main = () => {
     return (
         <div className="w-full px-[15px] lg:px-0 lg:max-w-[1200px] mx-auto">
             {isLoginPage || isRegisterPage || <NavBar></NavBar>}
+            <din className="">
             <Outlet />
+            </din>
             {isLoginPage || isRegisterPage || <Footer></Footer>}
         </div>
     );

@@ -58,7 +58,7 @@ const Header = () => {
 
   return (
     <div>
-      <div id="header" className="hero mt-3 rounded-lg overflow-hidden">
+      <div id="header" className="hero rounded-lg overflow-hidden">
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-neutral-content">
           <form
