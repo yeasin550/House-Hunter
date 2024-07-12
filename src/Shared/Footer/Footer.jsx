@@ -1,10 +1,11 @@
 import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
-import logo from '../../assets/logo.png'
+// import logo from '../../assets/logo.png'
+import logo from '../../assets/navLogo.png'
 const Footer = () => {
     return (
-        <footer className="footer mt-10 p-10 bg-[var(--opacity-color)] rounded-t-lg text-base-content">
+        <footer className="footer text-[16px] mt-10 p-10 bg-[var(--opacity-color)] rounded-t-lg text-base-content">
             <div>
-                <img className='w-[200px]' src={logo} alt="" />
+                <img className="w-[150px]" src={logo} alt="" />
                 <p>House Hunter Ltd.<br />Providing reliable rent since 1992</p>
             </div>
             <div>
