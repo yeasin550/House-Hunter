@@ -6,7 +6,7 @@ const Offer = () => {
   return (
     <div className="mb-28 mt-12">
       <div className="text-center mb-12">
-        <h1 className="font-bold text-3xl mt-5 mb-3 text-[#8861B3]">
+        <h1 className="font-bold text-3xl mt-5 mb-3 text-purple-600">
           Special Offer
         </h1>
         <p>ENJOY SPECIAL OFFERS ONLY AT SENOTINA HOTEL.</p>
@@ -20,7 +20,7 @@ const Offer = () => {
             <img className="" src={day} alt="" />
           </div>
           <div className="space-y-3">
-            <h1 className="text-lg text-[#8861B3] font-semibold">
+            <h1 className="text-lg text-purple-600 font-semibold">
               Free Breakfast Every Day
             </h1>
             <p className="text-sm text-justify">
@@ -37,7 +37,7 @@ const Offer = () => {
             <img className="" src={staff} alt="" />
           </div>
           <div className="space-y-3">
-            <h1 className="text-lg font-semibold text-[#8861B3]">
+            <h1 className="text-lg font-semibold text-purple-600">
               Attentive And Open Staff
             </h1>
             <p className="text-sm text-justify">
@@ -54,7 +54,7 @@ const Offer = () => {
             <img className="" src={room} alt="" />
           </div>
           <div className="space-y-3">
-            <h1 className="text-lg font-semibold text-[#8861B3]">
+            <h1 className="text-lg font-semibold text-purple-600">
               Luxurious & Comfort Room
             </h1>
             <p className="text-sm text-justify">

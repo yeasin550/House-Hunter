@@ -24,7 +24,7 @@ const BookTable = () => {
 
     return (
       <div className="mt-16 mb-20">
-        <h1 className="font-semibold text-3xl text-center text-[#8861B3]">
+        <h1 className="font-semibold text-3xl text-center text-purple-600">
           Book Your Private Table
         </h1>
         <form onSubmit={handleSubmit(handleTableBook)}>

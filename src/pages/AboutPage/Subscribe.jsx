@@ -12,7 +12,7 @@ const Subscribe = () => {
   return (
     <div
       className="p-12 max-w-screen-xl px-5 mx-auto bg-[#8861B3] text-white dark:bg-gradient-to-r from-gray-700 via-gray-900 to-black rounded-md mb-20"
-      data-aos="zoom-in-down"
+      // data-aos="zoom-in-down" data-aos-delay="500"
     >
       <div className="md:flex justify-evenly items-center">
         {/* Frist div */}

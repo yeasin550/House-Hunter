@@ -5,7 +5,7 @@ const AwesomeServices = () => {
   return (
     <div className="my-16">
       <div className="text-center">
-        <h1 className="text-3xl font-semibold text-[#8863BD]">
+        <h1 className="text-3xl font-semibold text-purple-600">
           OUR AWESOME SERVICES
         </h1>
         <p>Check out our awesome services</p>
@@ -14,7 +14,7 @@ const AwesomeServices = () => {
       <Tabs />
       <div className="max-w-screen-xl mx-auto py-8 px-4 lg:py-16 lg:px-6">
         <div className="text-center mb-10">
-          <h2 className="text-4xl tracking-tight text-[#8861B3] font-semibold text-primary-800">
+          <h2 className="text-4xl tracking-tight text-purple-600 font-semibold text-primary-800">
             Highlighted Features
           </h2>
         </div>
