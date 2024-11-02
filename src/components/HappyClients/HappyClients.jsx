@@ -31,15 +31,15 @@ const HappyClients = () => {
                           />
                           <div>
                             <h3 className="text-lg font-semibold ">
-                              Kanye West
+                            Alice Johnson
                             </h3>
                             <p className="text-gray-500 text-md">
-                              Rapper &amp; Entrepreneur
+                              GreenTech Innovations
                             </p>
                           </div>
                         </div>
                         <p className="leading-normal  text-md">
-                          Find God.
+                        The hotel stay was remarkable! From the welcoming staff to the pristine rooms, everything exceeded my expectations.
                         </p>
                       </div>
                     
@@ -58,17 +58,15 @@ const HappyClients = () => {
                           />
                           <div>
                             <h3 className="text-lg font-semibold ">
-                              Tim Cook
+                            David Chen
                             </h3>
                             <p className="text-gray-500 text-md">
-                              CEO of Apple
+                            Horizon Media Group
                             </p>
                           </div>
                         </div>
                         <p className="leading-normal  text-md">
-                          Diam quis enim lobortis scelerisque fermentum dui
-                          faucibus in ornare. Donec pretium vulputate sapien nec
-                          sagittis aliquam malesuada bibendum.
+                        The spacious rooms, attentive staff, and superb amenities were a delight. The hotel is ideally situated for both business and leisure, offering easy access to local attractions. I would highly recommend this hotel to anyone visiting the area.
                         </p>
                       </div>
                    
@@ -80,11 +78,8 @@ const HappyClients = () => {
                     
                       <div className="relative p-6 space-y-6 leading-none rounded-lg border border-black">
                         <div className="flex items-center space-x-4">
-                          <img
-                            src="https://pbs.twimg.com/profile_images/1276461929934942210/cqNhNk6v_400x400.jpg"
-                            className="w-12 h-12 bg-center bg-cover border rounded-full"
-                            alt="Kanye West"
-                          />
+                          
+                        <h1 className="w-12 h-12 bg-center bg-cover border rounded-full flex items-center justify-center bg-black text-white">K</h1>
                           <div>
                             <h3 className="text-lg font-semibold ">
                               Kanye West
@@ -95,7 +90,7 @@ const HappyClients = () => {
                           </div>
                         </div>
                         <p className="leading-normal  text-md">
-                          Find God.
+                        I would absolutely recommend this hotel to anyone looking for a relaxing and enjoyable stay.
                         </p>
                       </div>
                    
@@ -107,24 +102,18 @@ const HappyClients = () => {
                    
                       <div className="relative p-6 space-y-6 leading-none rounded-lg border border-black">
                         <div className="flex items-center space-x-4">
-                          <img
-                            src="https://pbs.twimg.com/profile_images/1535420431766671360/Pwq-1eJc_400x400.jpg"
-                            className="w-12 h-12 bg-center bg-cover border rounded-full"
-                            alt="Tim Cook"
-                          />
+                        <h1 className="w-12 h-12 bg-center bg-cover border rounded-full flex items-center justify-center bg-black text-white">E</h1>
                           <div>
                             <h3 className="text-lg font-semibold ">
-                              Tim Cook
+                            Elena Rodriguez
                             </h3>
                             <p className="text-gray-500 text-md">
-                              CEO of Apple
+                            CEO of UrbanEats
                             </p>
                           </div>
                         </div>
                         <p className="leading-normal  text-md">
-                          Diam quis enim lobortis scelerisque fermentum dui
-                          faucibus in ornare. Donec pretium vulputate sapien nec
-                          sagittis aliquam malesuada bibendum.
+                        I was thoroughly impressed by the hotel’s facilities and services. The rooms were spacious, and the attention to detail was notable.
                         </p>
                       </div>
                    
@@ -154,11 +143,8 @@ const HappyClients = () => {
                             </p>
                           </div>
                         </div>
-                        <p className="leading-normal  text-md">
-                          Enim neque volutpat ac tincidunt vitae semper. Mattis
-                          aliquam faucibus purus in massa tempor. Neque vitae
-                          tempus quam pellentesque nec. Turpis cursus in hac
-                          habitasse platea dictumst.
+                        <p className="leading-normal text-justify text-md">
+                        My stay at this hotel was beyond exceptional. The facilities, ambiance, and staffs professionalism left a lasting impression. I was greeted with a warm welcome, and every aspect of my visit showcased the hotel’s commitment to quality. 
                         </p>
                       </div>
                    
@@ -170,24 +156,18 @@ const HappyClients = () => {
                    
                       <div className="relative p-6 space-y-6 leading-none rounded-lg border border-black">
                         <div className="flex items-center space-x-4">
-                          <img
-                            src="https://pbs.twimg.com/profile_images/1535420431766671360/Pwq-1eJc_400x400.jpg"
-                            className="w-12 h-12 bg-center bg-cover border rounded-full"
-                            alt="Tim Cook"
-                          />
+                        <h1 className="w-12 h-12 bg-center bg-cover border rounded-full flex items-center justify-center bg-black text-white">T</h1>
                           <div>
                             <h3 className="text-lg font-semibold ">
                               Tim Cook
                             </h3>
                             <p className="text-gray-500 text-md">
-                              CEO of Apple
+                            Nexus Health
                             </p>
                           </div>
                         </div>
-                        <p className="leading-normal  text-md">
-                          Diam quis enim lobortis scelerisque fermentum dui
-                          faucibus in ornare. Donec pretium vulputate sapien nec
-                          sagittis aliquam malesuada bibendum.
+                        <p className="leading-normal text-justify text-md">
+                        The serene atmosphere and impeccable service made it a memorable trip. Every detail, from the cozy bed to the beautiful lobby, contributed to an amazing experience. I cant wait to return!
                         </p>
                       </div>
                    
@@ -199,25 +179,18 @@ const HappyClients = () => {
                     
                       <div className="relative p-6 space-y-6 leading-none rounded-lg border border-black">
                         <div className="flex items-center space-x-4">
-                          <img
-                            src="https://pbs.twimg.com/profile_images/1375285353146327052/y6jeByyD_400x400.jpg"
-                            className="w-12 h-12 bg-center bg-cover border rounded-full"
-                            alt="Parag Agrawal"
-                          />
+                        <h1 className="w-12 h-12 bg-center bg-cover border rounded-full flex items-center justify-center bg-black text-white">K</h1>
                           <div>
                             <h3 className="text-lg font-semibold ">
-                              Parag Agrawal
+                            John Lee
                             </h3>
                             <p className="text-gray-500 text-md">
-                              CEO of Twitter
+                            EcoWave Technologies
                             </p>
                           </div>
                         </div>
                         <p className="leading-normal  text-md">
-                          Enim neque volutpat ac tincidunt vitae semper. Mattis
-                          aliquam faucibus purus in massa tempor. Neque vitae
-                          tempus quam pellentesque nec. Turpis cursus in hac
-                          habitasse platea dictumst.
+                        Our stay was delightful! The hotel’s location was convenient, and the room was spacious and well-maintained. The staff provided great recommendations for nearby restaurants and attractions.
                         </p>
                       </div>
                     
@@ -229,24 +202,18 @@ const HappyClients = () => {
                     
                       <div className="relative p-6 space-y-6 leading-none rounded-lg border border-black">
                         <div className="flex items-center space-x-4">
-                          <img
-                            src="https://pbs.twimg.com/profile_images/1535420431766671360/Pwq-1eJc_400x400.jpg"
-                            className="w-12 h-12 bg-center bg-cover border rounded-full"
-                            alt="Tim Cook"
-                          />
+                        <h1 className="w-12 h-12 bg-center bg-cover border rounded-full flex items-center justify-center bg-black text-white">A</h1>
                           <div>
                             <h3 className="text-lg font-semibold ">
-                              Tim Cook
+                            Ava Green
                             </h3>
                             <p className="text-gray-500 text-md">
-                              CEO of Apple
+                            CEO of Blossom Beauty
                             </p>
                           </div>
                         </div>
-                        <p className="leading-normal  text-md">
-                          Diam quis enim lobortis scelerisque fermentum dui
-                          faucibus in ornare. Donec pretium vulputate sapien nec
-                          sagittis aliquam malesuada bibendum.
+                        <p className="leading-normal text-justify text-md">
+                        Staying at this hotel was an absolute pleasure. The rooms were modern, the decor tasteful, and the amenities well-thought-out. The staff was friendly and efficient, making check-in and check-out smooth.
                         </p>
                       </div>
                   
@@ -255,10 +222,6 @@ const HappyClients = () => {
               </ul>
               <ul
                 className="hidden space-y-8 lg:block"
-                // data-aos="fade-zoom-in"
-                // data-aos-easing="ease-in-back"
-                // data-aos-delay="300"
-                // data-aos-offset="0"
               >
                 <li className="text-sm leading-6">
                   <div className="relative group">
@@ -324,25 +287,18 @@ const HappyClients = () => {
                   
                       <div className="relative p-6 space-y-6 leading-none rounded-lg border border-black">
                         <div className="flex items-center space-x-4">
-                          <img
-                            src="https://pbs.twimg.com/profile_images/1221837516816306177/_Ld4un5A_400x400.jpg"
-                            className="w-12 h-12 bg-center bg-cover border rounded-full"
-                            alt="Satya Nadella"
-                          />
+                        <h1 className="w-12 h-12 bg-center bg-cover border rounded-full flex items-center justify-center bg-black text-white">L</h1>
                           <div>
                             <h3 className="text-lg font-semibold ">
-                              Satya Nadella
+                            Liam Turner
                             </h3>
                             <p className="text-gray-500 text-md">
-                              CEO of Microsoft
+                            Apex Digital Solutions
                             </p>
                           </div>
                         </div>
                         <p className="leading-normal  text-md">
-                          Tortor dignissim convallis aenean et tortor at. At
-                          ultrices mi tempus imperdiet nulla malesuada. Id
-                          cursus metus aliquam eleifend mi. Quis ipsum
-                          suspendisse ultrices gravida dictum fusce ut.
+                        Our experience at this hotel was exceptional from start to finish. The welcoming staff made us feel at home immediately, and the room exceeded our expectations. With stunning decor and thoughtful amenities, we had everything we needed for a comfortable stay. 
                         </p>
                       </div>
                    
@@ -354,23 +310,18 @@ const HappyClients = () => {
                    
                       <div className="relative p-6 space-y-6 leading-none rounded-lg border border-black">
                         <div className="flex items-center space-x-4">
-                          <img
-                            src="https://pbs.twimg.com/profile_images/516916920482672641/3jCeLgFb_400x400.jpeg"
-                            className="w-12 h-12 bg-center bg-cover border rounded-full"
-                            alt="Dan Schulman"
-                          />
+                        <h1 className="w-12 h-12 bg-center bg-cover border rounded-full flex items-center justify-center bg-black text-white">K</h1>
                           <div>
                             <h3 className="text-lg font-semibold ">
-                              Dan Schulman
+                            Emma Rivera
                             </h3>
                             <p className="text-gray-500 text-md">
-                              CEO of PayPal
+                            FreshStart Marketing
                             </p>
                           </div>
                         </div>
                         <p className="leading-normal  text-md">
-                          Quam pellentesque nec nam aliquam sem et tortor
-                          consequat id. Enim sit amet venenatis urna cursus.
+                        This hotel impressed me from start to finish.
                         </p>
                       </div>
                     
