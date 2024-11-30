@@ -1,10 +1,10 @@
 const Gallery = () => {
   return (
     <div>
-      <div className="py-9 bg-gray-200 rounded-sm px-12">
+      {/* <div className="py-9 bg-gray-200 rounded-sm px-12">
         <h1 className="text-2xl font-bold">Gallery Services</h1>
         <p>Home / Gallery</p>
-      </div>
+      </div> */}
       <div className="bg-white dark:bg-gray-800 py-6 sm:py-8 lg:pt-14 ">
         <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
           <div className="mb-4 flex items-center justify-between gap-8 sm:mb-8 md:mb-12">
@@ -206,7 +206,7 @@ const Gallery = () => {
       </div>
       {/* gallery-section-2 */}
       <>
-        <div className="p-5 sm:p-8">
+        {/* <div className="p-5 sm:p-8">
           <div className="columns-1 gap-5 sm:columns-2 sm:gap-8 md:columns-3 lg:columns-4 [&>img:not(:first-child)]:mt-8">
             <img
               src="https://source.unsplash.com/bYuI23mnmDQ"
@@ -282,7 +282,7 @@ const Gallery = () => {
               data-aos-anchor-placement="center-center"
             />
           </div>
-        </div>
+        </div> */}
         {/*credit by Surjith S M */}
       </>
     </div>

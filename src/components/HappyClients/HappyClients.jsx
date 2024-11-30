@@ -2,7 +2,7 @@
 const HappyClients = () => {
     return (
       <div className="mt-16">
-        <h1 className="text-center font-bold text-4xl my-5 italic text-purple-600">
+        <h1 className="text-center font-bold text-4xl my-5 text-purple-600">
           Our Happy Clients
         </h1>
         <section id="testimonies" className="pb-12">
@@ -22,7 +22,7 @@ const HappyClients = () => {
                   <div className="relative group">
                     <div className="absolute transition rounded-lg opacity-25 -inset-1  blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
                    
-                      <div className="relative p-6 space-y-6 leading-none rounded-lg border border-black">
+                      <div className="relative  p-4 space-y-6 leading-none rounded-lg border border-black">
                         <div className="flex items-center space-x-4">
                           <img
                             src="https://pbs.twimg.com/profile_images/1276461929934942210/cqNhNk6v_400x400.jpg"
@@ -49,7 +49,7 @@ const HappyClients = () => {
                   <div className="relative group">
                     <div className="absolute transition rounded-lg opacity-25 -inset-1  blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
                    
-                      <div className="relative p-6 space-y-6 leading-none rounded-lg border border-black">
+                      <div className="relative  p-4 space-y-6 leading-none rounded-lg border border-black">
                         <div className="flex items-center space-x-4">
                           <img
                             src="https://pbs.twimg.com/profile_images/1535420431766671360/Pwq-1eJc_400x400.jpg"
@@ -76,7 +76,7 @@ const HappyClients = () => {
                   <div className="relative group">
                     <div className="absolute transition rounded-lg opacity-25 -inset-1  blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
                     
-                      <div className="relative p-6 space-y-6 leading-none rounded-lg border border-black">
+                      <div className="relative  p-4 space-y-6 leading-none rounded-lg border border-black">
                         <div className="flex items-center space-x-4">
                           
                         <h1 className="w-12 h-12 bg-center bg-cover border rounded-full flex items-center justify-center bg-black text-white">K</h1>
@@ -100,7 +100,7 @@ const HappyClients = () => {
                   <div className="relative group">
                     <div className="absolute transition rounded-lg opacity-25 -inset-1  blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
                    
-                      <div className="relative p-6 space-y-6 leading-none rounded-lg border border-black">
+                      <div className="relative  p-4 space-y-6 leading-none rounded-lg border border-black">
                         <div className="flex items-center space-x-4">
                         <h1 className="w-12 h-12 bg-center bg-cover border rounded-full flex items-center justify-center bg-black text-white">E</h1>
                           <div>
@@ -127,7 +127,7 @@ const HappyClients = () => {
                   <div className="relative group">
                     <div className="absolute transition rounded-lg opacity-25 -inset-1  blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
                    
-                      <div className="relative p-6 space-y-6 leading-none rounded-lg border border-black">
+                      <div className="relative  p-4 space-y-6 leading-none rounded-lg border border-black">
                         <div className="flex items-center space-x-4">
                           <img
                             src="https://pbs.twimg.com/profile_images/1375285353146327052/y6jeByyD_400x400.jpg"
@@ -154,7 +154,7 @@ const HappyClients = () => {
                   <div className="relative group">
                     <div className="absolute transition rounded-lg opacity-25 -inset-1  blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
                    
-                      <div className="relative p-6 space-y-6 leading-none rounded-lg border border-black">
+                      <div className="relative  p-4 space-y-6 leading-none rounded-lg border border-black">
                         <div className="flex items-center space-x-4">
                         <h1 className="w-12 h-12 bg-center bg-cover border rounded-full flex items-center justify-center bg-black text-white">T</h1>
                           <div>
@@ -177,7 +177,7 @@ const HappyClients = () => {
                   <div className="relative group">
                     <div className="absolute transition rounded-lg opacity-25 -inset-1  blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
                     
-                      <div className="relative p-6 space-y-6 leading-none rounded-lg border border-black">
+                      <div className="relative  p-4 space-y-6 leading-none rounded-lg border border-black">
                         <div className="flex items-center space-x-4">
                         <h1 className="w-12 h-12 bg-center bg-cover border rounded-full flex items-center justify-center bg-black text-white">K</h1>
                           <div>
@@ -200,7 +200,7 @@ const HappyClients = () => {
                   <div className="relative group">
                     <div className="absolute transition rounded-lg opacity-25 -inset-1  blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
                     
-                      <div className="relative p-6 space-y-6 leading-none rounded-lg border border-black">
+                      <div className="relative  p-4 space-y-6 leading-none rounded-lg border border-black">
                         <div className="flex items-center space-x-4">
                         <h1 className="w-12 h-12 bg-center bg-cover border rounded-full flex items-center justify-center bg-black text-white">A</h1>
                           <div>
@@ -227,7 +227,7 @@ const HappyClients = () => {
                   <div className="relative group">
                     <div className="absolute transition rounded-lg opacity-25 -inset-1  blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
                    
-                      <div className="relative p-6 space-y-6 leading-none rounded-lg border border-black">
+                      <div className="relative  p-4 space-y-6 leading-none rounded-lg border border-black">
                         <div className="flex items-center space-x-4">
                           <img
                             src="https://pbs.twimg.com/profile_images/1221837516816306177/_Ld4un5A_400x400.jpg"
@@ -257,7 +257,7 @@ const HappyClients = () => {
                   <div className="relative group">
                     <div className="absolute transition rounded-lg opacity-25 -inset-1  blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
                    
-                      <div className="relative p-6 space-y-6 leading-none rounded-lg border border-black">
+                      <div className="relative  p-4 space-y-6 leading-none rounded-lg border border-black">
                         <div className="flex items-center space-x-4">
                           <img
                             src="https://pbs.twimg.com/profile_images/516916920482672641/3jCeLgFb_400x400.jpeg"
@@ -285,7 +285,7 @@ const HappyClients = () => {
                   <div className="relative group">
                     <div className="absolute transition rounded-lg opacity-25 -inset-1  blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
                   
-                      <div className="relative p-6 space-y-6 leading-none rounded-lg border border-black">
+                      <div className="relative  p-4 space-y-6 leading-none rounded-lg border border-black">
                         <div className="flex items-center space-x-4">
                         <h1 className="w-12 h-12 bg-center bg-cover border rounded-full flex items-center justify-center bg-black text-white">L</h1>
                           <div>
@@ -308,7 +308,7 @@ const HappyClients = () => {
                   <div className="relative group">
                     <div className="absolute transition rounded-lg opacity-25 -inset-1  blur duration-400 group-hover:opacity-100 group-hover:duration-200"></div>
                    
-                      <div className="relative p-6 space-y-6 leading-none rounded-lg border border-black">
+                      <div className="relative  p-4 space-y-6 leading-none rounded-lg border border-black">
                         <div className="flex items-center space-x-4">
                         <h1 className="w-12 h-12 bg-center bg-cover border rounded-full flex items-center justify-center bg-black text-white">K</h1>
                           <div>

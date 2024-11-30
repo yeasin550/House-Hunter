@@ -7,6 +7,8 @@ import Subscribe from "../AboutPage/Subscribe";
 // import AtHotel from "../../components/AtHotel/AtHotel";
 import ChooseRoom from "../../components/ChooseRoom/ChooseRoom";
 import BookTable from "../../components/BookTable/BookTable";
+import FAQS from "../../components/FAQS/FAQS";
+import Gallery from "../Gallery/Gallery";
 // import OurLatestOffers from "../../components/OurLatestOffers/OurLatestOffers";
 
 const Home = () => {
@@ -17,9 +19,11 @@ const Home = () => {
             <BookTable/>
             <Offer/>
             <AwesomeServices />
-            <ChooseRoom/>
+            <ChooseRoom />
+            <Gallery/>
             {/* <AtHotel/> */}
             {/* <OurLatestOffers/> */}
+            <FAQS/>
             <HappyClients />
             <div className="my-12">
             <Subscribe/>

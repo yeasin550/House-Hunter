@@ -80,8 +80,9 @@ const House = ({ house }) => {
   };
   return (
     <div
-      className="card card-compact bg-base-100 border shadow-md overflow-hidden"
-      data-aos="zoom-in-up"
+      // className="card card-compact bg-base-100 border shadow-md overflow-hidden"
+      className="bg-base-100 border rounded-lg overflow-hidden hover:border-gray-400"
+      // data-aos="zoom-in-up"
     >
       <figure
         style={{
@@ -92,18 +93,19 @@ const House = ({ house }) => {
       >
         <img
           src={house?.picture}
-          className="h-[210px] object-cover w-full"
-          alt="Shoes"
+          className="h-[220px] object-cover w-full "
+          alt="Booked"
         />
       </figure>
-      <div className="card-body">
+      {/* <div className="card-body"> */}
+      <div className="p-5 space-y-2">
         <h2 className="card-title capitalize">{house?.title}</h2>
         <div className="w-full flex items-center justify-between">
           <p className="text-[18px]">
             <mark className="p-[2px] px-2 rounded-md bg-purple-500 text-white">
-              <small className="pr-[1px]">BDT</small>
+              <small className="pr-[1px]">BDT </small>
               {house?.price}
-              <span className="text-[var(--primary-color)]">K</span>
+              <span className="">K</span>
             </mark>
           </p>
           <div className="flex items-center justify-center gap-1 text-white">
